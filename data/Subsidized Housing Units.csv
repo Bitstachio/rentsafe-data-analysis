@@ -1,0 +1,1703 @@
+_id,Building Complex Name,Unit Size,Mandate Description,Household Income Limit,Units Available in the Last 12 Months,Number of Market Rent Units,Number of Subsidized Units
+1,1 Church Street,1B,None,62500,1,20,21
+2,1 Church Street,2B,None,71500,0,26,25
+3,1 Church Street,3B,None,79000,1,9,9
+4,1 Church Street,4B,None,82500,0,4,1
+5,1 Oak  Apartments,2B,None,71500,0,20,14
+6,1 Oak  Apartments,3B,None,79000,0,0,34
+7,1 Oak  Apartments,4B,None,82500,0,0,24
+8,1 Oak  Apartments,5B,None,82500,0,0,21
+9,1 Oak  Stacked Rowhouses,2B,None,71500,0,20,14
+10,1 Oak  Stacked Rowhouses,3B,None,79000,0,0,34
+11,1 Oak  Stacked Rowhouses,4B,None,82500,0,0,24
+12,1 Oak  Stacked Rowhouses,5B,None,82500,0,0,21
+13,1087 Davenport Road,2B,None,71500,1,5,4
+14,11 Randolph Avenue,1B,None,62500,1,20,40
+15,11 Randolph Avenue,2B,None,71500,0,5,21
+16,11 Randolph Avenue,3B,None,79000,0,2,7
+17,111 Chestnut Street,1B,None,62500,2,20,24
+18,111 Chestnut Street,2B,None,71500,1,28,60
+19,111 Chestnut Street,3B,None,79000,0,4,7
+20,1167 Queen Street East,1B,None,62500,0,3,17
+21,1167 Queen Street East,2B,None,71500,1,6,10
+22,1167 Queen Street East,3B,None,79000,0,0,5
+23,133 Broadway Avenue,1B,None,62500,4,16,15
+24,133 Broadway Avenue,2B,None,71500,0,2,2
+25,133 Broadway Avenue,B,None,53500,1,8,9
+26,136 Perth Avenue,1B,None,62500,0,3,5
+27,136 Perth Avenue,2B,None,71500,0,16,41
+28,136 Perth Avenue,3B,None,79000,0,1,2
+29,139 Stephenson Avenue,1B,None,62500,0,14,16
+30,139 Stephenson Avenue,2B,None,71500,0,32,22
+31,139 Stephenson Avenue,3B,None,79000,0,0,9
+32,140 The Esplanade,1B,None,62500,0,18,17
+33,140 The Esplanade,2B,None,71500,1,28,27
+34,140 The Esplanade,3B,None,79000,0,5,4
+35,140 The Esplanade,4B,None,82500,0,0,1
+36,140 The Esplanade,B,None,53500,0,1,1
+37,1400 Bathurst Street,1B,None,62500,1,33,33
+38,1400 Bathurst Street,2B,None,71500,0,21,21
+39,1400 Bathurst Street,B,None,53500,1,3,2
+40,1630 Lawrence Avenue West,1B,None,62500,1,16,46
+41,1630 Lawrence Avenue West,2B,None,71500,0,2,18
+42,1630 Lawrence Avenue West,3B,None,79000,0,4,14
+43,170 Fairview Apartments,2B,None,71500,0,0,58
+44,170 Fairview Apartments,3B,None,79000,0,0,14
+45,170 Fairview Apartments,4B,None,82500,0,0,3
+46,170 Fairview Townhouses,2B,None,71500,0,0,7
+47,170 Fairview Townhouses,3B,None,79000,0,0,20
+48,170 Fairview Townhouses,4B,None,82500,0,0,2
+49,180 Sackville Street Apartments,1B,None,62500,0,0,6
+50,180 Sackville Street Apartments,2B,None,71500,0,0,1
+51,Atkinson Co-Op Rowhouses,3B,None,79000,0,0,159
+52,Atkinson Co-Op Rowhouses,4B,None,82500,0,0,76
+53,Atkinson Co-Op Rowhouses,5B,None,82500,0,0,28
+54,Atkinson Co-Op Townhouses,1B,None,62500,0,0,48
+55,Atkinson Co-Op Townhouses,2B,None,71500,0,0,99
+56,Atkinson Co-Op Townhouses,3B,None,79000,0,0,159
+57,Atkinson Co-Op Townhouses,4B,None,82500,0,0,76
+58,Atkinson Co-Op Townhouses,5B,None,82500,0,0,28
+59,Balsam Avenue,1B,None,62500,0,0,4
+60,Balsam Avenue,2B,None,71500,0,2,6
+61,Barsa Kelly Cari-Can Co-Operative Homes,1B,None,62500,1,15,61
+62,Barsa Kelly Cari-Can Co-Operative Homes,2B,None,71500,0,9,35
+63,Barsa Kelly Cari-Can Co-Operative Homes,3B,None,79000,0,3,10
+64,Bathurst Place,1B,Senior 59+,62500,6,0,160
+65,Bathurst Prince Charles Housing Project,1B,None,62500,0,32,89
+66,Bathurst Prince Charles Housing Project,2B,None,71500,0,6,11
+67,Bathurst Prince Charles Housing Project,3B,None,79000,0,12,10
+68,Bathurst Quay Apartments,1B,None,62500,2,28,67
+69,Bathurst Quay Apartments,2B,None,71500,1,14,40
+70,Bathurst Quay Apartments,3B,None,79000,0,2,10
+71,Bathurst Quay Apartments,4B,None,82500,0,1,0
+72,Bathurst Quay Townhouses,1B,None,62500,2,28,67
+73,Bathurst Quay Townhouses,2B,None,71500,1,14,40
+74,Bathurst Quay Townhouses,3B,None,79000,0,2,10
+75,Bathurst Quay Townhouses,4B,None,82500,0,1,0
+76,Bathurst/Adelaide Project,1B,None,62500,0,32,20
+77,Bathurst/Adelaide Project,2B,None,71500,2,71,27
+78,Bathurst-Eglinton Project,1B,None,62500,3,40,62
+79,Bathurst-Eglinton Project,2B,None,71500,0,6,12
+80,Bathurst-Eglinton Project,B,None,53500,0,1,13
+81,Bazaar Non-Profit Housing Corporation,1B,None,62500,0,9,22
+82,Bazaar Non-Profit Housing Corporation,2B,None,71500,0,5,33
+83,Bazaar Non-Profit Housing Corporation,3B,None,79000,0,6,6
+84,Beaches Lions Centennial Apts,1B,Senior 59+,62500,2,0,13
+85,Beaches Lions Centennial Apts,B,Senior 59+,53500,2,0,30
+86,Beaver Hall Artist's Co-Operative Inc.,1B,Visual Artists,62500,0,0,5
+87,Beaver Hall Artist's Co-Operative Inc.,2B,Visual Artists,71500,0,0,5
+88,Beaver Hall Artist's Co-Operative Inc.,B,Visual Artists,53500,0,0,14
+89,Beecroft Manor,1B,Senior 59+,62500,2,0,43
+90,Beecroft Manor,B,Senior 59+,53500,24,0,240
+91,Bellamy Housing Co-Operative Inc,1B,None,62500,1,4,12
+92,Bellamy Housing Co-Operative Inc,2B,None,71500,0,8,38
+93,Bellamy Housing Co-Operative Inc,3B,None,79000,0,2,5
+94,Bello Horizonte Non-Profit Homes Corp,1B,None,62500,1,5,22
+95,Bello Horizonte Non-Profit Homes Corp,2B,None,71500,6,10,35
+96,Bello Horizonte Non-Profit Homes Corp,3B,None,79000,1,10,42
+97,Bello Horizonte Non-Profit Homes Corp,4B,None,82500,0,1,7
+98,Bessie Luffman,3B,None,79000,1,0,24
+99,Beverley Manor,1B,Senior 59+,62500,0,0,42
+100,Beverley Manor,B,Senior 59+,53500,9,0,138
+101,28 Broadway Avenue,2B,None,71500,0,4,4
+102,28 Broadway Avenue,B,None,53500,1,8,9
+103,29 Louvain Avenue,1B,None,62500,0,2,14
+104,29 Louvain Avenue,2B,None,71500,0,8,9
+105,29 Louvain Avenue,3B,None,79000,0,2,20
+106,40 Trefann Street,2B,None,71500,0,0,1
+107,470 Melita Apartments,1B,None,62500,2,19,10
+108,470 Melita Apartments,2B,None,71500,0,1,33
+109,470 Melita Apartments,B,None,53500,0,2,3
+110,470 Melita Townhouses,1B,None,62500,2,19,10
+111,470 Melita Townhouses,2B,None,71500,0,1,33
+112,470 Melita Townhouses,B,None,53500,0,2,3
+113,5 Carling Avenue,1B,None,62500,0,3,2
+114,5 Carling Avenue,2B,None,71500,0,0,5
+115,52 Jones Avenue,1B,None,62500,0,0,2
+116,52 Jones Avenue,2B,None,71500,0,0,4
+117,52 Jones Avenue,3B,None,79000,0,1,2
+118,520 Kingston Road,1B,None,62500,1,10,63
+119,520 Kingston Road,2B,None,71500,0,10,18
+120,520 Kingston Road,3B,None,79000,0,0,3
+121,520 Kingston Road,B,None,53500,0,3,5
+122,530 Kingston Road,1B,None,62500,1,16,56
+123,530 Kingston Road,2B,None,71500,0,6,5
+124,530 Kingston Road,3B,None,79000,0,0,1
+125,530 Kingston Road,B,None,53500,0,1,6
+126,55 Howard Park Avenue,1B,None,62500,0,16,32
+127,55 Howard Park Avenue,2B,None,71500,0,10,10
+128,55 Howard Park Avenue,B,None,53500,4,8,13
+129,63 Mitchell Avenue,3B,None,79000,0,0,3
+130,8 & 12 Broadway,1B,None,62500,1,33,50
+131,8 & 12 Broadway,2B,None,71500,0,19,20
+132,8 & 12 Broadway,3B,None,79000,0,3,4
+133,8 & 12 Broadway,4B,None,82500,0,1,2
+134,8 & 12 Broadway,B,None,53500,0,8,6
+135,900 Queen Street West,1B,Artist,62500,0,1,11
+136,900 Queen Street West,2B,Artist,71500,0,4,1
+137,900 Queen Street West,3B,Artist,79000,0,2,5
+138,909 St Clair Avenue West,2B,None,71500,0,3,3
+139,92 Carlton Street,1B,None,62500,1,20,30
+140,92 Carlton Street,2B,None,71500,0,10,34
+141,92 Carlton Street,3B,None,79000,0,0,6
+142,92 Carlton Street,4B,None,82500,0,0,1
+143,92 Carlton Street,B,None,53500,0,9,0
+144,Adanac Apartments,1B,None,62500,0,0,30
+145,Adanac Apartments,B,None,53500,14,0,276
+146,Agnes McPhail Apartments,1B,None,62500,12,0,183
+147,Agnes McPhail Apartments,2B,None,71500,5,0,75
+148,Agnes McPhail Apartments,3B,None,79000,0,0,35
+149,Agnes McPhail Townhouses,1B,None,62500,12,0,183
+150,Agnes McPhail Townhouses,2B,None,71500,5,0,75
+151,Caboto Terrace Seniors Apartments,1B,Senior 59+,62500,0,129,129
+152,Campbell/Antler,1B,None,62500,2,28,15
+153,Campbell/Antler,2B,None,71500,0,23,8
+154,Campbell/Antler,3B,None,79000,0,13,6
+155,Campbell/Antler,B,None,53500,0,0,7
+156,Canadian Macedonian Place,1B,Senior 59+ / Macedonian Origin,62500,3,82,28
+157,Canadian Martyrs Seniors Residence,1B,Senior 59+,62500,0,12,48
+158,Canlish Road,3B,None,79000,0,0,72
+159,Capri Road,1B,None,62500,0,0,18
+160,Capri Road,2B,None,71500,6,0,237
+161,Capri Road,3B,None,79000,0,0,1
+162,Casa Abruzzo,1B,Senior 59+,62500,14,78,97
+163,Casa Abruzzo,2B,Senior 59+,71500,0,14,14
+164,Casa Del Zotto Seniors Apartments,1B,Senior 59+,62500,9,68,114
+165,Casa Del Zotto Seniors Apartments,2B,Senior 59+,71500,0,12,8
+166,Cavell/Harcourt Project Apartments,1B,None,62500,0,11,15
+167,Cavell/Harcourt Project Apartments,2B,None,71500,0,6,9
+168,Cavell/Harcourt Project Apartments,3B,None,79000,0,3,15
+169,Cavell/Harcourt Project Townhouses,1B,None,62500,0,11,15
+170,Cavell/Harcourt Project Townhouses,2B,None,71500,0,6,9
+171,Cavell/Harcourt Project Townhouses,3B,None,79000,0,3,15
+172,Cedarbrae Manor,1B,Senior 59+,62500,3,0,96
+173,Cedarbrae Manor,B,Senior 59+,53500,17,0,304
+174,Centennial Apartments,1B,None,62500,5,0,46
+175,Centennial Apartments,B,None,53500,19,0,198
+176,Central King Seniors Residence,1B,Senior 59+,62500,4,15,78
+177,Central King Seniors Residence,2B,Senior 59+,71500,0,9,17
+178,Champlain Apartments,1B,None,62500,0,12,68
+179,Champlain Apartments,2B,None,71500,0,4,44
+180,Champlain Apartments,3B,None,79000,0,1,3
+181,Chapel Court Apartments,1B,None,62500,0,18,18
+182,Chapel Court Apartments,2B,None,71500,0,62,10
+183,Chapel Court Apartments,3B,None,79000,0,0,3
+184,Chatham/Oakvale Project,1B,None,62500,0,4,2
+185,Chatham/Oakvale Project,2B,None,71500,1,2,2
+186,Chatham/Oakvale Project,3B,None,79000,0,2,1
+187,Chinese Evergreen Family,3B,None,79000,1,0,15
+188,Chinese Evergreen Manor,1B,Senior 59+ Chinese Origin,62500,7,0,112
+189,Chinese Evergreen Manor,2B,Senior 59+ Chinese Origin,71500,2,0,18
+190,Chord Housing Co-Operative Inc. Apartments,1B,None,62500,0,16,32
+191,Chord Housing Co-Operative Inc. Apartments,2B,None,71500,2,3,55
+192,Chord Housing Co-Operative Inc. Apartments,3B,None,79000,0,5,18
+193,Chord Housing Co-Operative Inc. Apartments,4B,None,82500,0,0,6
+194,Chord Housing Co-Operative Inc. Apartments,B,None,53500,0,0,2
+195,Chord Housing Co-Operative Inc. Townhouses,1B,None,62500,0,16,32
+196,Chord Housing Co-Operative Inc. Townhouses,2B,None,71500,2,3,55
+197,Chord Housing Co-Operative Inc. Townhouses,3B,None,79000,0,5,18
+198,Chord Housing Co-Operative Inc. Townhouses,4B,None,82500,0,0,6
+199,Chord Housing Co-Operative Inc. Townhouses,B,None,53500,0,0,2
+200,Church Of The Master Homes Corp,1B,None,62500,0,5,22
+201,Church Of The Master Homes Corp,2B,None,71500,2,10,6
+202,Church Of The Master Homes Corp,3B,None,79000,0,0,5
+203,City Park Apartments Inc,1B,None,62500,14,193,298
+204,City Park Apartments Inc,2B,None,71500,0,38,65
+205,City Park Apartments Inc,B,None,53500,41,160,242
+206,Cliffwood Manor,1B,Senior 59+,62500,4,0,99
+207,Cliffwood Manor,B,Senior 59+,53500,20,0,298
+208,Clintwood Non-Profit Housing Co-Op,2B,None,71500,2,18,14
+209,Clintwood Non-Profit Housing Co-Op,3B,None,79000,2,17,14
+210,College View Apartments,1B,Senior 59+,62500,2,0,68
+211,College View Apartments,B,Senior 59+,53500,24,0,272
+212,Cooper Mills Townhouses,1B,None,62500,0,18,6
+213,Cooper Mills Townhouses,2B,None,71500,0,33,17
+214,Cooper Mills Townhouses,3B,None,79000,0,56,47
+215,Courtland Mews Co-Operative Homes Inc,2B,None,71500,2,11,11
+216,Courtland Mews Co-Operative Homes Inc,3B,None,79000,0,27,10
+217,Courtland Mews Co-Operative Homes Inc,4B,None,82500,0,16,1
+218,Coxwell Stables,1B,None,62500,0,0,2
+219,Coxwell Stables,2B,None,71500,0,7,1
+220,Coxwell Stables,B,None,53500,0,0,1
+221,Crombie Park Apartments,1B,None,62500,0,41,36
+222,Crombie Park Apartments,2B,None,71500,0,5,10
+223,Crombie Park Apartments,3B,None,79000,0,6,5
+224,Crombie Park Apartments,4B,None,82500,0,0,1
+225,Crombie Park Apartments,B,None,53500,3,44,42
+226,Crombie Park Stacked Rowhouses,1B,None,62500,0,41,36
+227,Crombie Park Stacked Rowhouses,2B,None,71500,0,5,10
+228,Crombie Park Stacked Rowhouses,3B,None,79000,0,6,5
+229,Crombie Park Stacked Rowhouses,4B,None,82500,0,0,1
+230,Crombie Park Stacked Rowhouses,B,None,53500,3,44,42
+231,Dan Harrison Community Complex,1B,None,62500,3,65,59
+232,Dan Harrison Community Complex,2B,None,71500,0,9,13
+233,Dan Harrison Community Complex,3B,None,79000,1,18,11
+234,Dan Harrison Community Complex,4B,None,82500,0,2,5
+235,Dan Harrison Community Complex,B,None,53500,7,91,84
+236,Danforth/Midland,1B,None,62500,20,0,633
+237,Danforth/Midland,2B,None,71500,6,0,232
+238,Danforth/Midland,3B,None,79000,0,0,4
+239,Danforth/Midland,B,None,53500,0,0,3
+240,Davenport Road Apartments,1B,None,62500,2,0,247
+241,Davenport Road Apartments,2B,None,71500,0,0,73
+242,Davenport Road Apartments,B,None,53500,5,0,152
+243,Davenport Road Townhouses,1B,None,62500,2,0,2
+244,Davenport Road Townhouses,2B,None,71500,0,0,13
+245,Demarco Boulevard Apartments,1B,None,62500,0,0,12
+246,Demarco Boulevard Apartments,2B,None,71500,0,0,20
+247,Demarco Boulevard Apartments,3B,None,79000,1,0,22
+248,Dixington Crescent,3B,None,79000,0,0,28
+249,Dixington Crescent,4B,None,82500,0,0,8
+250,Don Summerville,1B,None,62500,0,0,38
+251,Agnes McPhail Townhouses,3B,None,79000,0,0,35
+252,Ahmadiyya Abode Of Peace,1B,Ahmadiyya Muslim Jama'at,62500,2,5,16
+253,Ahmadiyya Abode Of Peace,2B,Ahmadiyya Muslim Jama'at,71500,14,30,74
+254,Ahmadiyya Abode Of Peace,3B,Ahmadiyya Muslim Jama'at,79000,1,7,25
+255,Akwa Honsta,1B,Market Unit On 3B,62500,2,17,27
+256,Akwa Honsta,2B,Market Unit On 3B,71500,2,18,18
+257,Akwa Honsta,B,Market Unit On 3B,53500,3,16,19
+258,Albion/Shendale,2B,None,71500,0,0,14
+259,Albion/Shendale,3B,None,79000,0,0,17
+260,Albion/Shendale,4B,None,82500,0,0,3
+261,Aldebrain Attendant Care Services,1B,None,62500,0,7,29
+262,Aldebrain Attendant Care Services,2B,None,71500,4,36,145
+263,Aldebrain Attendant Care Services,3B,None,79000,0,5,16
+264,Aldebrain Attendant Care Services,4B,None,82500,0,2,3
+265,Alexandra Park Apartments,1B,Senior 59+,62500,0,0,53
+266,Alexandra Park Apartments,B,Senior 59+,53500,12,0,203
+267,All Saints Church Homes,B,None,53500,0,0,60
+268,All Saints Church Homes - Pembroke,1B,None,62500,0,0,8
+269,All Saints Church Homes - Pembroke,2B,None,71500,0,0,6
+270,All Saints Church Homes - Pembroke,B,None,53500,0,0,1
+271,Almise Co-Operative Homes Inc.,1B,Senior 59+,62500,6,4,103
+272,Almise Co-Operative Homes Inc.,2B,Senior 59+,71500,0,32,5
+273,Amansie Place,1B,None,62500,0,1,1
+274,Amansie Place,2B,None,71500,0,12,11
+275,Amansie Place,3B,None,79000,0,7,11
+276,Amansie Place,4B,None,82500,0,1,1
+277,Amansie Place,B,None,53500,0,0,3
+278,Arleta Manor Apartments,1B,Senior 59+,62500,2,0,59
+279,Arleta Manor Apartments,B,Senior 59+,53500,14,0,313
+280,Artscape Wychwood Barns,1B,Artist-Live/Work,62500,0,0,10
+281,Artscape Wychwood Barns,B,Artist-Live/Work,53500,1,0,10
+282,Ascot Co-Op Homes,1B,None,62500,2,5,22
+283,Ascot Co-Op Homes,2B,None,71500,2,25,41
+284,Ascot Co-Op Homes,3B,None,79000,0,5,34
+285,Asquith Park Project,1B,None,62500,0,68,47
+286,Asquith Park Project,2B,None,71500,1,41,19
+287,Asquith Park Project,B,None,53500,2,13,5
+288,Atahualpa Co-Opperative Homes 1987 Inc,1B,None,62500,0,2,10
+289,Atahualpa Co-Opperative Homes 1987 Inc,2B,None,71500,2,12,32
+290,Atahualpa Co-Opperative Homes 1987 Inc,3B,None,79000,0,7,16
+291,Athens Villa Non-Profit Housing Corp,1B,None,62500,0,4,21
+292,Athens Villa Non-Profit Housing Corp,2B,None,71500,0,3,1
+293,Athens Villa Non-Profit Housing Corp,B,None,53500,0,2,14
+294,Atkinson Co-Op Apartments,1B,None,62500,0,0,48
+295,Atkinson Co-Op Apartments,2B,None,71500,0,0,99
+296,Atkinson Co-Op Apartments,3B,None,79000,0,0,159
+297,Atkinson Co-Op Apartments,4B,None,82500,0,0,76
+298,Atkinson Co-Op Apartments,5B,None,82500,0,0,28
+299,Atkinson Co-Op Rowhouses,1B,None,62500,0,0,48
+300,Atkinson Co-Op Rowhouses,2B,None,71500,0,0,99
+301,Birchmount/Eglinton,1B,None,62500,2,0,84
+302,Birchmount/Eglinton,2B,None,71500,8,0,141
+303,Birchmount/Eglinton,3B,None,79000,0,0,11
+304,Birmingham Homes Co-Op Inc,2B,None,71500,0,3,28
+305,Birmingham Homes Co-Op Inc,3B,None,79000,0,4,8
+306,Birmingham Homes Co-Op Inc,4B,None,82500,0,2,5
+307,Birtch Place Co-Operative Homes,1B,None,62500,1,16,16
+308,Blair Court,1B,Senior 59+,62500,5,0,248
+309,Blair Court,2B,Senior 59+,71500,0,0,7
+310,Blake Street Apartments,1B,None,62500,1,0,129
+311,Blake Street Apartments,2B,None,71500,2,0,204
+312,Blake Street Apartments,3B,None,79000,0,0,58
+313,Blake Street Apartments,4B,None,82500,0,0,36
+314,Blake Street Apartments,5B,None,82500,0,0,33
+315,Blake Street Rowhouses,1B,None,62500,1,0,129
+316,Blake Street Rowhouses,2B,None,71500,2,0,204
+317,Blake Street Rowhouses,3B,None,79000,0,0,58
+318,Blake Street Rowhouses,4B,None,82500,0,0,36
+319,Blake Street Rowhouses,5B,None,82500,0,0,33
+320,Blake Towers,1B,None,62500,0,18,10
+321,Blake Towers,2B,None,71500,0,8,14
+322,Blake Towers,B,None,53500,0,1,0
+323,Bleecker Street,1B,None,62500,14,0,479
+324,Bleecker Street,2B,None,71500,13,0,379
+325,Bleecker Street,3B,None,79000,0,0,48
+326,Bleecker Street,B,None,53500,1,0,48
+327,Blue Danube House,1B,German Origin,62500,3,10,29
+328,Blue Danube House,2B,German Origin,71500,5,22,49
+329,B'Nai Brith Canada Senior Citizens Foundation,1B,Senior 59+,62500,7,8,114
+330,B'Nai Brith Canada Senior Citizens Foundation,2B,Senior 59+,71500,0,32,10
+331,B'Nai Brith Upper Canada Lodge,1B,Senior 59+,62500,3,44,73
+332,Bonar-Parkdale Place,1B,Senior 59+,62500,2,8,53
+333,Bonar-Parkdale Place,2B,Senior 59+,71500,0,5,6
+334,Brimell Court Co-Operative,2B,None,71500,1,6,4
+335,Brimell Court Co-Operative,3B,None,79000,2,66,11
+336,Brimell Court Co-Operative,4B,None,82500,0,10,1
+337,Brimley Acres,1B,Senior 59+,62500,1,0,88
+338,Brimley Acres,B,Senior 59+,53500,4,0,112
+339,Broadview Housing Co-Operative Inc.,1B,None,62500,0,14,39
+340,Broadview Housing Co-Operative Inc.,2B,None,71500,2,19,36
+341,Broadview Housing Co-Operative Inc.,3B,None,79000,0,2,1
+342,Broadview Manor,1B,Senior 59+,62500,1,0,36
+343,Broadview Manor,B,Senior 59+,53500,8,0,95
+344,Brookbanks Non-Profit Homes Apts.,1B,None,62500,0,5,14
+345,Brookbanks Non-Profit Homes Apts.,2B,None,71500,0,10,25
+346,Brookbanks Non-Profit Homes Apts.,3B,None,79000,0,5,9
+347,Bruckland Foundation,2B,None,71500,0,20,7
+348,Bruckland Foundation,3B,None,79000,0,19,7
+349,Byng Towers,1B,Senior 59+,62500,1,0,47
+350,Byng Towers,B,Senior 59+,53500,8,0,146
+351,180 Sackville Street Apartments,3B,None,79000,0,0,39
+352,180 Sackville Street Townhouses,4B,None,82500,0,0,20
+353,180 Sackville Street Townhouses,5B,None,82500,0,0,12
+354,190 John Street,1B,None,62500,0,5,8
+355,190 John Street,2B,None,71500,0,4,4
+356,190 John Street,3B,None,79000,0,4,4
+357,21 St Joseph Street,1B,None,62500,1,11,10
+358,21 St Joseph Street,2B,None,71500,0,8,8
+359,22 O'Hara Avenue,1B,None,62500,0,1,1
+360,22 O'Hara Avenue,2B,None,71500,1,5,5
+361,22 O'Hara Avenue,3B,None,79000,0,1,0
+362,220 Eglinton Avenue East,1B,None,62500,6,36,42
+363,220 Eglinton Avenue East,B,None,53500,1,9,10
+364,2265 Jane Street,3B,None,79000,0,0,39
+365,2265 Jane Street,4B,None,82500,0,0,2
+366,230 Sackvile Apartments,1B,None,62500,0,1,7
+367,230 Sackvile Apartments,2B,None,71500,0,48,63
+368,230 Sackvile Apartments,3B,None,79000,0,1,36
+369,230 Sackvile Townhouses,1B,None,62500,0,1,7
+370,230 Sackvile Townhouses,2B,None,71500,0,48,63
+371,230 Sackvile Townhouses,3B,None,79000,0,1,36
+372,2390 Gerrard Street East,1B,None,62500,0,0,6
+373,2390 Gerrard Street East,2B,None,71500,1,3,3
+374,2390 Gerrard Street East,3B,None,79000,0,1,3
+375,246 Sackville  Apartments,1B,None,62500,0,3,7
+376,246 Sackville  Apartments,2B,None,71500,0,11,13
+377,246 Sackville  Apartments,3B,None,79000,0,0,26
+378,246 Sackville  Apartments,4B,None,82500,0,0,9
+379,246 Sackville  Apartments,5B,None,82500,0,0,24
+380,246 Sackville  Rowhouses,1B,None,62500,0,3,7
+381,246 Sackville  Rowhouses,2B,None,71500,0,11,13
+382,246 Sackville  Rowhouses,3B,None,79000,0,0,26
+383,246 Sackville  Rowhouses,4B,None,82500,0,0,9
+384,246 Sackville  Rowhouses,5B,None,82500,0,0,24
+385,246 Sackville  Stacked Rowhouses,1B,None,62500,0,3,7
+386,246 Sackville  Stacked Rowhouses,2B,None,71500,0,11,13
+387,246 Sackville  Stacked Rowhouses,3B,None,79000,0,0,26
+388,246 Sackville  Stacked Rowhouses,4B,None,82500,0,0,9
+389,246 Sackville  Stacked Rowhouses,5B,None,82500,0,0,24
+390,252 Sackville Street,1B,Senior 59+,62500,0,0,147
+391,252 Sackville Street,2B,Senior 59+,71500,0,0,12
+392,257 Dundas Street East,1B,None,62500,0,0,1
+393,257 Dundas Street East,B,None,53500,0,5,17
+394,2585 Jane Street,2B,None,71500,0,0,30
+395,2585 Jane Street,3B,None,79000,0,0,12
+396,261 Jarvis Street,1B,None,62500,1,6,14
+397,261 Jarvis Street,2B,None,71500,0,4,17
+398,261 Jarvis Street,3B,None,79000,0,0,5
+399,261 Jarvis Street,B,None,53500,0,2,7
+400,28 Broadway Avenue,1B,None,62500,1,26,24
+401,Don Summerville,2B,None,71500,0,0,34
+402,Don Summerville,3B,None,79000,1,0,48
+403,Donvale Manor,1B,Seniors Only 59+,62500,0,1,80
+404,Dorothy Klein Seniors,1B,None,62500,5,20,82
+405,Dorothy Klein Seniors,2B,None,71500,0,5,18
+406,Doug Saunders Apartments,1B,Senior 59+,62500,5,0,76
+407,Doug Saunders Apartments,B,Senior 59+,53500,9,0,224
+408,Downsview Acres,1B,None,62500,0,0,79
+409,Downsview Acres,B,None,53500,16,0,215
+410,Dufferin/Gwynne Apartments,1B,None,62500,1,5,15
+411,Dufferin/Gwynne Apartments,2B,None,71500,0,31,20
+412,Dufferin/Gwynne Apartments,3B,None,79000,0,10,7
+413,Dufferin/Gwynne Apartments,4B,None,82500,0,3,5
+414,Dufferin/Gwynne Apartments,B,None,53500,1,37,6
+415,Dufferin/Gwynne Townhouses,1B,None,62500,1,5,15
+416,Dufferin/Gwynne Townhouses,2B,None,71500,0,31,20
+417,Dufferin/Gwynne Townhouses,3B,None,79000,0,10,7
+418,Dufferin/Gwynne Townhouses,4B,None,82500,0,3,5
+419,Dufferin/Gwynne Townhouses,B,None,53500,1,37,6
+420,Dufferin/Wilson,3B,None,79000,0,0,14
+421,Duncan Mills Co-Op,1B,None,62500,0,19,23
+422,Duncan Mills Co-Op,2B,None,71500,4,55,93
+423,Duncan Mills Co-Op,3B,None,79000,0,9,22
+424,Duncanwoods,3B,None,79000,0,0,41
+425,Duncanwoods,4B,None,82500,0,0,12
+426,Esplanade Project Apartments,3B,None,79000,0,0,46
+427,Hubbard Boulevard Project,2B,None,71500,1,10,2
+428,Dundas Gooch,1B,None,62500,3,0,118
+429,Dundas Gooch,2B,None,71500,4,0,167
+430,Dundas/Beverley,1B,None,62500,0,4,7
+431,Dundas/Beverley,2B,None,71500,0,3,5
+432,Dundas/Beverley,3B,None,79000,0,0,2
+433,Dundas/Beverley,4B,None,82500,0,1,2
+434,Dundas/Beverley,5B,None,82500,0,0,2
+435,Dundas/Beverley,B,None,53500,0,2,2
+436,Dundas/Mabelle,1B,None,62500,15,0,360
+437,Dundas/Mabelle,2B,None,71500,2,0,152
+438,Dunn Avenue,1B,None,62500,11,0,267
+439,Dunn Avenue,2B,None,71500,2,0,77
+440,Dunn Avenue,3B,None,79000,0,0,1
+441,Dunn Avenue,B,None,53500,0,0,38
+442,Eagle Manor,1B,None,62500,1,0,68
+443,Eagle Manor,B,None,53500,20,0,323
+444,East Mall,2B,None,71500,0,0,4
+445,East Mall,3B,None,79000,2,0,100
+446,East York Acres,1B,Senior 59+,62500,6,0,88
+447,East York Acres,B,Senior 59+,53500,9,0,112
+448,Eastview Park,1B,None,62500,0,0,29
+449,Eastview Park,2B,None,71500,0,0,1
+450,Eastview Park,B,None,53500,0,0,11
+451,Edgeley Apartments,1B,Senior 59+,62500,1,0,61
+452,Edgeley Apartments,B,Senior 59+,53500,10,0,263
+453,Esplanade Project Apartments,B,None,53500,1,10,18
+454,Humber Acres,1B,None,62500,0,0,20
+455,Esplanade Project Townhouses,1B,None,62500,1,62,63
+456,Esplanade Project Townhouses,2B,None,71500,3,48,76
+457,Humber Acres,B,None,53500,1,0,27
+458,Esplanade Project Townhouses,3B,None,79000,0,0,46
+459,Humber Boulevard Apartments,1B,None,62500,2,0,72
+460,Esplanade Project Townhouses,B,None,53500,1,10,18
+461,Humber Boulevard Apartments,2B,None,71500,3,0,71
+462,Estorada,1B,None,62500,1,1,20
+463,Humber Boulevard Apartments,3B,None,79000,5,0,72
+464,Estorada,2B,None,71500,2,8,31
+465,Humber Boulevard Apartments,4B,None,82500,2,0,40
+466,Fan,1B,None,62500,0,6,8
+467,Humber Boulevard Apartments,5B,None,82500,0,0,10
+468,Fan,2B,None,71500,0,0,7
+469,Humber Boulevard Rowhouses,1B,None,62500,2,0,72
+470,Fan,3B,None,79000,0,0,1
+471,Humber Boulevard Rowhouses,2B,None,71500,3,0,71
+472,Faywood Place,1B,None,62500,0,0,1
+473,Humber Boulevard Rowhouses,3B,None,79000,5,0,72
+474,Faywood Place,2B,None,71500,0,12,25
+475,Humber Boulevard Rowhouses,4B,None,82500,2,0,40
+476,Faywood Place,3B,None,79000,0,0,2
+477,Humber Boulevard Rowhouses,5B,None,82500,0,0,10
+478,Finch/Ardwick,3B,None,79000,3,0,37
+479,Humberline Place,1B,None,62500,0,41,11
+480,Humberline Place,2B,None,71500,2,84,17
+481,Humberline Place,3B,None,79000,0,13,13
+482,Humbervale Place,1B,Senior 59+,62500,7,31,63
+483,Humbervale Place,2B,Senior 59+,71500,0,13,1
+484,Humbervale Place,B,Senior 59+,53500,2,0,6
+485,Hydro Block Apartments,1B,None,62500,0,12,36
+486,Hydro Block Apartments,2B,None,71500,0,3,20
+487,Hydro Block Apartments,3B,None,79000,0,0,16
+488,Hydro Block Apartments,4B,None,82500,0,0,13
+489,Hydro Block Apartments,5B,None,82500,0,0,5
+490,Hydro Block Apartments,6B,None,82500,0,0,3
+491,Hydro Block Apartments,B,None,53500,1,15,20
+492,Hydro Block Townhouses,1B,None,62500,0,12,36
+493,Hydro Block Townhouses,2B,None,71500,0,3,20
+494,Hydro Block Townhouses,3B,None,79000,0,0,16
+495,Hydro Block Townhouses,4B,None,82500,0,0,13
+496,Hydro Block Townhouses,5B,None,82500,0,0,5
+497,Hydro Block Townhouses,6B,None,82500,0,0,3
+498,Hydro Block Townhouses,B,None,53500,1,15,20
+499,Innstead Co-Operative Inc.,1B,None,62500,0,7,12
+500,Innstead Co-Operative Inc.,2B,None,71500,0,12,19
+501,Innstead Co-Operative Inc.,3B,None,79000,0,10,16
+502,Innstead Co-Operative Inc.,4B,None,82500,0,0,2
+503,Innstead Co-Operative Inc.,5B,None,82500,0,0,4
+504,Innstead Co-Operative Inc.,B,None,53500,0,2,3
+505,Innstead Co-Operative Inc. Walkup,1B,None,62500,0,7,12
+506,Innstead Co-Operative Inc. Walkup,2B,None,71500,0,12,19
+507,Innstead Co-Operative Inc. Walkup,3B,None,79000,0,10,16
+508,Innstead Co-Operative Inc. Walkup,4B,None,82500,0,0,2
+509,Innstead Co-Operative Inc. Walkup,5B,None,82500,0,0,4
+510,Innstead Co-Operative Inc. Walkup,B,None,53500,0,2,3
+511,Islington Manor,1B,Senior 59+,62500,5,0,312
+512,Islington Manor,B,Senior 59+,53500,2,0,38
+513,Islington/Satterly,3B,None,79000,0,0,15
+514,Islington/Satterly,4B,None,82500,0,0,17
+515,Islington/St. Andrews,2B,None,71500,11,0,228
+516,Finch/Ardwick,4B,None,82500,0,0,3
+517,Finch/Ardwick,5B,None,82500,0,0,16
+518,Finch/Birchmount Apartments,1B,None,62500,2,0,49
+519,Finch/Birchmount Apartments,2B,None,71500,7,0,176
+520,Finch/Birchmount Apartments,3B,None,79000,0,0,41
+521,Finch/Birchmount Apartments,4B,None,82500,0,0,67
+522,Finch/Birchmount Apartments,5B,None,82500,0,0,23
+523,Finch/Birchmount Rowhouses,1B,None,62500,2,0,49
+524,Finch/Birchmount Rowhouses,2B,None,71500,7,0,176
+525,Finch/Birchmount Rowhouses,3B,None,79000,0,0,41
+526,Finch/Birchmount Rowhouses,4B,None,82500,0,0,67
+527,Finch/Birchmount Rowhouses,5B,None,82500,0,0,23
+528,Finch/Brahms Apartments,1B,None,62500,1,0,50
+529,Finch/Brahms Apartments,2B,None,71500,0,0,242
+530,Finch/Brahms Apartments,3B,None,79000,0,0,50
+531,Finch/Brahms Apartments,4B,None,82500,1,0,14
+532,Finch/Brahms Rowhouses,1B,None,62500,1,0,50
+533,Finch/Brahms Rowhouses,2B,None,71500,0,0,242
+534,Finch/Brahms Rowhouses,3B,None,79000,0,0,50
+535,Finch/Brahms Rowhouses,4B,None,82500,1,0,14
+536,Finch/Tobermory,1B,None,62500,2,0,92
+537,Finch/Tobermory,2B,None,71500,4,0,190
+538,Finch/Tobermory,3B,None,79000,0,0,93
+539,Finch/Topcliffe,2B,None,71500,0,0,5
+540,Finch/Topcliffe,3B,None,79000,1,0,47
+541,Firgrove,2B,None,71500,0,0,3
+542,Firgrove,3B,None,79000,0,0,177
+543,Firgrove,4B,None,82500,0,0,51
+544,First Erdelyi House,1B,None,62500,0,5,11
+545,First Erdelyi House,2B,None,71500,0,3,8
+546,First Erdelyi House,B,None,53500,4,20,47
+547,Flemingdon Park Rowhouses,2B,None,71500,15,0,273
+548,Flemingdon Park Rowhouses,3B,None,79000,2,0,234
+549,Flemingdon Park Rowhouses,4B,None,82500,0,0,17
+550,Flemingdon Park Walkup,2B,None,71500,15,0,273
+551,Edgeley Village Apartments,1B,None,62500,0,0,44
+552,Edgeley Village Apartments,2B,None,71500,3,0,112
+553,Edgeley Village Apartments,3B,None,79000,8,0,305
+554,Edgeley Village Apartments,4B,None,82500,0,0,81
+555,Edgeley Village Apartments,5B,None,82500,0,0,36
+556,Edgeley Village Rowhouses,1B,None,62500,0,0,44
+557,Edgeley Village Rowhouses,2B,None,71500,3,0,112
+558,Edgeley Village Rowhouses,3B,None,79000,8,0,305
+559,Edgeley Village Rowhouses,4B,None,82500,0,0,81
+560,Edgeley Village Rowhouses,5B,None,82500,0,0,36
+561,Edgeley Village Stacked Rowhouses,1B,None,62500,0,0,44
+562,Edgeley Village Stacked Rowhouses,2B,None,71500,3,0,112
+563,Edgeley Village Stacked Rowhouses,3B,None,79000,8,0,305
+564,Edgeley Village Stacked Rowhouses,4B,None,82500,0,0,81
+565,Edgeley Village Stacked Rowhouses,5B,None,82500,0,0,36
+566,Edgeview Housing Co-Operative Inc,1B,None,62500,0,6,18
+567,Edgeview Housing Co-Operative Inc,2B,None,71500,0,5,12
+568,Edgeview Housing Co-Operative Inc,3B,None,79000,0,2,4
+569,Edgeview Housing Co-Operative Inc,4B,None,82500,0,1,1
+570,Edgewood Avenue,1B,None,62500,1,0,39
+571,Edgewood Avenue,2B,None,71500,0,0,33
+572,Edgewood Avenue,3B,None,79000,0,0,21
+573,Edgewood Avenue,B,None,53500,0,0,3
+574,Edna Dixon Apartments,1B,Senior 59+,62500,0,0,11
+575,Edna Dixon Apartments,B,Senior 59+,53500,3,0,33
+576,Edwards Manor,1B,Senior 59+,62500,3,0,26
+577,Edwards Manor,B,Senior 59+,53500,27,0,281
+578,Eglinton/Markham,1B,None,62500,1,0,51
+579,Eglinton/Markham,2B,None,71500,16,0,107
+580,Eglinton/Markham,3B,None,79000,7,0,92
+581,Eglinton/Markham,4B,None,82500,2,0,14
+582,Ellesmere/Markham,1B,None,62500,0,0,120
+583,Ellesmere/Markham,2B,None,71500,1,0,180
+584,Ellesmere/Markham,3B,None,79000,0,0,60
+585,Elm Ridge Drive Project,1B,None,62500,0,18,18
+586,Elm Ridge Drive Project,2B,None,71500,0,8,9
+587,Elm Street,1B,None,62500,1,36,36
+588,Elm Street,2B,None,71500,0,14,14
+589,Elmer Avenue Project,1B,None,62500,1,15,8
+590,Elmer Avenue Project,2B,None,71500,0,10,2
+591,Elmer Avenue Project,B,None,53500,0,0,3
+592,Emmanuel Lutheran Manor Victoria Village,1B,Senior 59+,62500,1,26,76
+593,Emmanuel Lutheran Manor Victoria Village,2B,Senior 59+,71500,0,8,1
+594,Empringham Mews,3B,None,79000,2,53,79
+595,Empringham Mews,4B,None,82500,0,7,26
+596,Ernescliffe Non-Profit Housing Co-Op Apartments,1B,None,62500,0,13,53
+597,Ernescliffe Non-Profit Housing Co-Op Apartments,2B,None,71500,0,6,17
+598,Ernescliffe Non-Profit Housing Co-Op Apartments,B,None,53500,0,3,4
+599,Esplanade Project Apartments,1B,None,62500,1,62,63
+600,Esplanade Project Apartments,2B,None,71500,3,48,76
+601,Flemingdon Park Walkup,3B,None,79000,2,0,234
+602,Flemingdon Park Walkup,4B,None,82500,0,0,17
+603,Forty-Third Housing Co-Operative,1B,None,62500,2,30,26
+604,Forty-Third Housing Co-Operative,2B,None,71500,0,17,33
+605,Frances Beavis Manor,1B,Senior 59+,62500,2,0,34
+606,Frances Beavis Manor,B,Senior 59+,53500,7,0,105
+607,Frankel/Lambert,1B,None,62500,0,5,7
+608,Frankel/Lambert,2B,None,71500,0,1,6
+609,Frankel/Lambert,3B,None,79000,0,9,6
+610,Frankel/Lambert,4B,None,82500,0,2,3
+611,Frederick J. Beavis Apts. For Seniors,1B,Senior 59+,62500,0,84,28
+612,Frederick J. Beavis Apts. For Seniors,2B,Senior 59+,71500,0,5,2
+613,Frederick J. Beavis Apts. For Seniors,B,Senior 59+,53500,0,42,14
+614,Galloway/Lawrence,1B,None,62500,4,0,120
+615,Galloway/Lawrence,2B,None,71500,9,0,222
+616,Galloway/Lawrence,3B,None,79000,1,0,28
+617,Gardenview Co-Operative Homes Apartments,1B,None,62500,0,1,11
+618,Gardenview Co-Operative Homes Apartments,2B,None,71500,0,10,39
+619,Gardenview Co-Operative Homes Apartments,3B,None,79000,0,4,17
+620,Gardenview Co-Operative Homes Apartments,4B,None,82500,0,0,1
+621,Gardenview Co-Operative Homes Townhouses,1B,None,62500,0,1,11
+622,Gardenview Co-Operative Homes Townhouses,2B,None,71500,0,10,39
+623,Gardenview Co-Operative Homes Townhouses,3B,None,79000,0,4,17
+624,Gardenview Co-Operative Homes Townhouses,4B,None,82500,0,0,1
+625,George Barker Manor,1B,Senior 59+,62500,1,0,155
+626,George Street Singles,B,None,53500,5,2,130
+627,Gerrard/River,1B,None,62500,6,0,158
+628,Gerrard/River,B,None,53500,11,0,310
+629,Gilder Drive Apartments,1B,None,62500,4,0,102
+630,Gilder Drive Apartments,2B,None,71500,1,0,109
+631,Gilder Drive Apartments,3B,None,79000,4,0,112
+632,Glen Gardens Housing Co-Operative Inc,1B,None,62500,0,7,7
+633,Glen Gardens Housing Co-Operative Inc,2B,None,71500,0,22,21
+634,Glen Gardens Housing Co-Operative Inc,3B,None,79000,0,10,11
+635,Glen Gardens Housing Co-Operative Inc,4B,None,82500,0,3,3
+636,Glen Maple,1B,None,62500,0,9,33
+637,Glen Maple,2B,None,71500,0,15,26
+638,Glen Maple,3B,None,79000,0,0,66
+639,Glen Maple,4B,None,82500,0,0,35
+640,Glen Maple,5B,None,82500,0,0,1
+641,Glen Park Co-Operative Homes Inc,1B,None,62500,1,7,7
+642,Glen Park Co-Operative Homes Inc,2B,None,71500,0,8,25
+643,Glen Park Co-Operative Homes Inc,3B,None,79000,0,0,9
+644,Glen Park Co-Operative Homes Inc,4B,None,82500,0,1,4
+645,Glen Park Co-Operative Homes Inc,B,None,53500,0,0,9
+646,Glen Stewart Acres,1B,Senior 59+,62500,0,0,53
+647,Glen Stewart Acres,B,Senior 59+,53500,9,0,94
+648,Glenyan Manor,1B,Senior 59+,62500,0,0,63
+649,Glenyan Manor,B,Senior 59+,53500,11,0,185
+650,Grace Hartman Housing Co-Op Apartments,1B,None,62500,0,0,8
+651,Harbour Channel Housing Co-Op Inc Townhouses,3B,None,79000,0,3,23
+652,Harmony Co-Operative Homes Inc,1B,None,62500,0,10,19
+653,Harmony Co-Operative Homes Inc,2B,None,71500,2,19,29
+654,Harmony Co-Operative Homes Inc,3B,None,79000,0,3,1
+655,Harmony Co-Operative Homes Inc,4B,None,82500,0,1,1
+656,Harry Sherman Crowe Housing Co-Op Inc. Apartments,1B,None,62500,0,9,21
+657,Harry Sherman Crowe Housing Co-Op Inc. Apartments,2B,None,71500,0,28,37
+658,Harry Sherman Crowe Housing Co-Op Inc. Apartments,3B,None,79000,0,13,33
+659,Harry Sherman Crowe Housing Co-Op Inc. Apartments,4B,None,82500,0,7,16
+660,Harry Sherman Crowe Housing Co-Op Inc. Townhouses,1B,None,62500,0,9,21
+661,Harry Sherman Crowe Housing Co-Op Inc. Townhouses,2B,None,71500,0,28,37
+662,Harry Sherman Crowe Housing Co-Op Inc. Townhouses,3B,None,79000,0,13,33
+663,Harry Sherman Crowe Housing Co-Op Inc. Townhouses,4B,None,82500,0,7,16
+664,Heather Terraces,1B,Senior 59+,62500,0,2,14
+665,Heather Terraces,2B,Senior 59+,71500,0,5,1
+666,Heather Terraces,B,Senior 59+,53500,0,0,7
+667,Hellenic Home For The Aged Inc. Apartments,1B,Senior 59+ Greek Origin,62500,11,28,184
+668,Hellenic Home For The Aged Inc. Apartments,2B,Senior 59+ Greek Origin,71500,1,6,23
+669,Hickory Tree Road Co-Operative Homes Inc,1B,None,62500,0,4,7
+670,Hickory Tree Road Co-Operative Homes Inc,2B,None,71500,1,6,23
+671,Hickory Tree Road Co-Operative Homes Inc,3B,None,79000,0,7,22
+672,Hickory Tree Road Co-Operative Homes Inc,4B,None,82500,0,0,4
+673,High Park Apartments,1B,None,62500,9,0,301
+674,High Park Apartments,2B,None,71500,0,0,95
+675,High Park Apartments,3B,None,79000,0,0,8
+676,High Park Apartments,B,None,53500,1,0,46
+677,High Park Rowhouses,1B,None,62500,9,0,301
+678,High Park Rowhouses,2B,None,71500,0,0,95
+679,High Park Rowhouses,3B,None,79000,0,0,8
+680,High Park Rowhouses,B,None,53500,1,0,46
+681,Highway Terraces Apartments,1B,Senior 59+,62500,3,132,48
+682,Highway Terraces Apartments,B,Senior 59+,53500,0,10,2
+683,Holly Park Apartments,1B,None,62500,0,25,26
+684,Holly Park Apartments,2B,None,71500,0,16,17
+685,Holly Park Apartments,3B,None,79000,0,4,7
+686,Holly Park Apartments,4B,None,82500,0,1,5
+687,Holly Park Apartments,B,None,53500,4,34,32
+688,Holly Park Townhouses,1B,None,62500,0,25,26
+689,Holly Park Townhouses,2B,None,71500,0,16,17
+690,Holly Park Townhouses,3B,None,79000,0,4,7
+691,Holly Park Townhouses,4B,None,82500,0,1,5
+692,Holly Park Townhouses,B,None,53500,4,34,32
+693,Hospital Workers' Housing Co-Op,1B,None,62500,0,26,27
+694,Hospital Workers' Housing Co-Op,2B,None,71500,3,17,41
+695,Hospital Workers' Housing Co-Op,3B,None,79000,0,7,22
+696,Hospitality Workers Housing Co-Op,1B,None,62500,0,20,33
+697,Hospitality Workers Housing Co-Op,2B,None,71500,0,10,24
+698,Hospitality Workers Housing Co-Op,3B,None,79000,0,3,24
+699,Hospitality Workers Housing Co-Op,4B,None,82500,0,0,4
+700,Hubbard Boulevard Project,1B,None,62500,0,5,10
+701,Islington/St. Andrews,3B,None,79000,4,0,96
+702,Jack Goodlad Sr Citizen Residences Corp.,1B,Senior 59+,62500,4,17,106
+703,Jack Goodlad Sr Citizen Residences Corp.,2B,Senior 59+,71500,0,39,12
+704,Jane/Falstaff,1B,None,62500,0,0,57
+705,Jane/Falstaff,2B,None,71500,12,0,555
+706,Jane/Falstaff,3B,None,79000,0,0,57
+707,Jane/Firgrove Apartments,1B,None,62500,0,0,11
+708,Jane/Firgrove Apartments,2B,None,71500,2,0,123
+709,Jane/Firgrove Apartments,3B,None,79000,0,0,14
+710,Jane/Firgrove Apartments,4B,None,82500,0,0,2
+711,Jane/Firgrove Rowhouses,1B,None,62500,0,0,11
+712,Jane/Firgrove Rowhouses,2B,None,71500,2,0,123
+713,Jane/Firgrove Rowhouses,3B,None,79000,0,0,14
+714,Jane/Firgrove Rowhouses,4B,None,82500,0,0,2
+715,Jane/John Best,1B,None,62500,1,0,26
+716,Jane/John Best,2B,None,71500,0,0,38
+717,Jane/John Best,3B,None,79000,1,0,12
+718,Jane/Milo Apartments,1B,None,62500,3,0,23
+719,Jane/Milo Apartments,2B,None,71500,3,0,114
+720,Jane/Milo Apartments,3B,None,79000,0,0,23
+721,Jane/Milo Apartments,4B,None,82500,0,0,7
+722,Jane/Milo Rowhouses,1B,None,62500,3,0,23
+723,Jane/Milo Rowhouses,2B,None,71500,3,0,114
+724,Jane/Milo Rowhouses,3B,None,79000,0,0,23
+725,Jane/Milo Rowhouses,4B,None,82500,0,0,7
+726,Jane/Woolner,1B,None,62500,0,0,141
+727,Jane/Woolner,2B,None,71500,0,0,126
+728,Jane/Woolner,3B,None,79000,0,0,16
+729,Jane/Woolner,B,None,53500,0,0,17
+730,Jane/Yewtree,1B,None,62500,1,0,58
+731,Jane/Yewtree,2B,None,71500,4,0,114
+732,Jane/Yewtree,3B,None,79000,0,0,15
+733,Janet Magee Manor,1B,Senior 59+,62500,2,0,47
+734,Janet Magee Manor,B,Senior 59+,53500,4,0,120
+735,Jarvis Carlton,1B,None,62500,3,0,82
+736,Jarvis George Housing Co-Operative Inc,1B,None,62500,1,22,25
+737,Jarvis George Housing Co-Operative Inc,2B,None,71500,2,23,25
+738,Jarvis George Housing Co-Operative Inc,3B,None,79000,0,1,9
+739,Jenny Green Housing Co-Operative Homes Inc Apartments,1B,None,62500,0,1,9
+740,Jenny Green Housing Co-Operative Homes Inc Apartments,2B,None,71500,0,10,27
+741,Jenny Green Housing Co-Operative Homes Inc Apartments,3B,None,79000,1,0,11
+742,Jenny Green Housing Co-Operative Homes Inc Townhouses,1B,None,62500,0,1,9
+743,Jenny Green Housing Co-Operative Homes Inc Townhouses,2B,None,71500,0,10,27
+744,Jenny Green Housing Co-Operative Homes Inc Townhouses,3B,None,79000,1,0,11
+745,Jones/Curzon,2B,None,71500,0,7,2
+746,Jones/Curzon,3B,None,79000,0,2,4
+747,Joseph Brown Manor,1B,Senior 59+,62500,1,0,110
+748,Jubilee Centre,1B,Senior 59+,62500,0,40,38
+749,Keele/Bloor Townhouses,2B,None,71500,0,2,2
+750,Keele/Bloor Townhouses,3B,None,79000,0,1,3
+751,Grace Hartman Housing Co-Op Apartments,2B,None,71500,0,0,15
+752,Grace Hartman Housing Co-Op Apartments,3B,None,79000,0,0,54
+753,Grace Hartman Housing Co-Op Apartments,4B,None,82500,0,0,6
+754,Grace Hartman Housing Co-Op Stacked Rowhouses,1B,None,62500,0,0,8
+755,Grace Hartman Housing Co-Op Stacked Rowhouses,2B,None,71500,0,0,15
+756,Grace Hartman Housing Co-Op Stacked Rowhouses,3B,None,79000,0,0,54
+757,Grace Hartman Housing Co-Op Stacked Rowhouses,4B,None,82500,0,0,6
+758,Grace Hartman Housing Co-Op Townhouses,1B,None,62500,0,0,8
+759,Grace Hartman Housing Co-Op Townhouses,2B,None,71500,0,0,15
+760,Grace Hartman Housing Co-Op Townhouses,3B,None,79000,0,0,54
+761,Grace Hartman Housing Co-Op Townhouses,4B,None,82500,0,0,6
+762,Green Meadows,1B,Senior 59+,62500,0,66,21
+763,Green Meadows,B,Senior 59+,53500,0,8,3
+764,Greenbrae Circuit 1 Apartments,1B,None,62500,1,0,78
+765,Greenbrae Circuit 1 Apartments,2B,None,71500,3,0,158
+766,Greenbrae Circuit 1 Apartments,3B,None,79000,2,0,57
+767,Greenbrae Circuit 1 Rowhouses,1B,None,62500,1,0,78
+768,Greenbrae Circuit 1 Rowhouses,2B,None,71500,3,0,158
+769,Greenbrae Circuit 1 Rowhouses,3B,None,79000,2,0,57
+770,Greenwood Park,1B,None,62500,0,0,13
+771,Greenwood Park,2B,None,71500,1,0,48
+772,Greenwood Park,3B,None,79000,0,0,14
+773,Greenwood Park,B,None,53500,0,0,6
+774,Greenwood Towers,1B,Senior 59+,62500,3,0,48
+775,Greenwood Towers,B,Senior 59+,53500,18,0,302
+776,Greenwood/Walpole,1B,None,62500,0,17,12
+777,Greenwood/Walpole,2B,None,71500,0,50,24
+778,Greenwood/Walpole,3B,None,79000,0,10,7
+779,Griggs Manor,1B,Senior 59+,62500,9,0,167
+780,Griggs Manor,2B,Senior 59+,71500,0,0,7
+781,Griggs Manor,B,Senior 59+,53500,17,0,237
+782,Gus Harris Place,1B,Senior 59+,62500,4,0,150
+783,Habayit Shelanu Seniors Residences,1B,Senior 59+,62500,3,6,43
+784,Habayit Shelanu Seniors Residences,2B,Senior 59+,71500,0,2,3
+785,Habayit Shelanu Seniors Residences,B,Senior 59+,53500,1,0,5
+786,Hallbank/Pitfield,3B,None,79000,0,0,12
+787,Hallbank/Pitfield,4B,None,82500,0,0,15
+788,Hallbank/Pitfield,5B,None,82500,0,0,12
+789,Hanson House,1B,Senior 59+,62500,0,0,48
+790,Hanson Street Project Apartments,1B,None,62500,0,10,22
+791,Hanson Street Project Apartments,2B,None,71500,1,22,60
+792,Hanson Street Project Apartments,3B,None,79000,0,4,29
+793,Hanson Street Project Townhouses,1B,None,62500,0,10,22
+794,Hanson Street Project Townhouses,2B,None,71500,1,22,60
+795,Hanson Street Project Townhouses,3B,None,79000,0,4,29
+796,Harbour Channel Housing Co-Op Inc Apartments,1B,None,62500,0,1,14
+797,Harbour Channel Housing Co-Op Inc Apartments,2B,None,71500,1,31,47
+798,Harbour Channel Housing Co-Op Inc Apartments,3B,None,79000,0,3,23
+799,Harbour Channel Housing Co-Op Inc Townhouses,1B,None,62500,0,1,14
+800,Harbour Channel Housing Co-Op Inc Townhouses,2B,None,71500,1,31,47
+801,Kennedy Road Apartments,1B,None,62500,1,0,50
+802,Kennedy Road Apartments,2B,None,71500,1,0,112
+803,Kennedy Road Apartments,3B,None,79000,0,0,54
+804,Kennedy Road Apartments,4B,None,82500,2,0,27
+805,Kennedy Road Apartments,B,None,53500,4,0,30
+806,Kennedy Road Walkup,1B,None,62500,1,0,50
+807,Kennedy Road Walkup,2B,None,71500,1,0,112
+808,Kennedy Road Walkup,3B,None,79000,0,0,54
+809,Kennedy Road Walkup,4B,None,82500,2,0,27
+810,Kennedy Road Walkup,B,None,53500,4,0,30
+811,Kennedy/Dundalk,1B,None,62500,0,0,80
+812,Kennedy/Dundalk,2B,None,71500,2,0,112
+813,Kennedy/Dundalk,3B,None,79000,0,0,1
+814,Kennedy/Dundalk,B,None,53500,1,0,3
+815,Kennedy/Glamorgan,1B,None,62500,0,0,69
+816,Kennedy/Glamorgan,2B,None,71500,5,0,104
+817,Kennedy/Glamorgan,3B,None,79000,0,0,11
+818,Kensington Manor,1B,Senior 59+,62500,0,0,48
+819,Kensington Manor,B,Senior 59+,53500,10,0,141
+820,King High Acres,B,Senior 59+,53500,6,0,31
+821,Kingston Road East,2B,None,71500,0,0,2
+822,Kingston Road East,3B,None,79000,0,1,3
+823,Kingston Road Project,1B,None,62500,1,1,5
+824,Kingston Road Project,2B,None,71500,0,16,5
+825,Kingston Road Project,3B,None,79000,0,6,1
+826,Kingston Road Project,4B,None,82500,0,1,1
+827,Kingston Road West,2B,None,71500,0,0,17
+828,Kingston Road West,3B,None,79000,1,0,72
+829,Kingston Road West,4B,None,82500,0,0,2
+830,Kingston/Galloway Apartments,1B,None,62500,11,0,266
+831,Kingston/Galloway Apartments,2B,None,71500,13,0,152
+832,Kingston/Galloway Apartments,3B,None,79000,1,0,41
+833,Kingston/Galloway Apartments,4B,None,82500,2,0,30
+834,Kingston/Galloway Rowhouses,1B,None,62500,11,0,266
+835,Kingston/Galloway Rowhouses,2B,None,71500,13,0,152
+836,Kingston/Galloway Rowhouses,3B,None,79000,1,0,41
+837,Kingston/Galloway Rowhouses,4B,None,82500,2,0,30
+838,Kingsway-Lambton Homes For Seniors Inc.,1B,Senior 59+,62500,6,30,93
+839,Kingsway-Lambton Homes For Seniors Inc.,2B,Senior 59+,71500,0,2,4
+840,Kinsmen Manor,1B,Senior 59+,62500,2,0,20
+841,Kinsmen Manor,2B,Senior 59+,71500,0,0,4
+842,Kinsmen Manor,3B,Senior 59+,79000,0,0,2
+843,Kinsmen Manor,B,Senior 59+,53500,0,0,12
+844,Kipling/Mount Olive,2B,None,71500,0,0,27
+845,Kipling/Mount Olive,3B,None,79000,6,0,131
+846,Knights Village Non-Profit Homes Inc Apartments,1B,None,62500,0,9,90
+847,Knights Village Non-Profit Homes Inc Apartments,2B,None,71500,0,8,64
+848,Knights Village Non-Profit Homes Inc Apartments,3B,None,79000,0,15,165
+849,Lawrence/Orton Apartments,2B,None,71500,10,0,183
+850,Knights Village Non-Profit Homes Inc Central Hall,1B,None,62500,0,9,90
+851,Knights Village Non-Profit Homes Inc Central Hall,2B,None,71500,0,8,64
+852,McCowan Road 1 Apartments,5B,None,82500,0,0,2
+853,Northminster Residences Of Toronto,2B,None,71500,0,10,41
+854,Lawrence/Orton Apartments,3B,None,79000,4,0,82
+855,Northminster Residences Of Toronto,3B,None,79000,1,5,8
+856,Lawrence/Orton Walkup,1B,None,62500,4,0,76
+857,McCowan Road 1 Rowhouses,1B,None,62500,0,0,56
+858,Northwood Apartments,1B,None,62500,0,0,24
+859,Lawrence/Orton Walkup,2B,None,71500,10,0,183
+860,McCowan Road 1 Rowhouses,2B,None,71500,3,0,113
+861,Northwood Apartments,B,None,53500,12,0,214
+862,Lawrence/Orton Walkup,3B,None,79000,4,0,82
+863,McCowan Road 1 Rowhouses,3B,None,79000,0,0,73
+864,O'Connor Drive,1B,None,62500,0,0,1
+865,Lawrence/Susan,1B,None,62500,2,0,20
+866,McCowan Road 1 Rowhouses,4B,None,82500,0,0,16
+867,O'Connor Drive,2B,None,71500,5,0,71
+868,Lawrence/Susan,2B,None,71500,3,0,169
+869,McCowan Road 1 Rowhouses,5B,None,82500,0,0,2
+870,O'Connor Drive,3B,None,79000,4,0,116
+871,Lawrence/Susan,3B,None,79000,1,0,24
+872,McMurrich Place,1B,Senior 59+,62500,0,0,30
+873,O'Connor Drive,4B,None,82500,0,0,28
+874,Lawrence/Valia,3B,None,79000,0,0,34
+875,McMurrich Place,B,Senior 59+,53500,5,0,98
+876,O'Connor Drive,5B,None,82500,0,0,12
+877,Laxton Ave Project,1B,None,62500,0,19,9
+878,Metta Housing Co-Operative Inc,1B,None,62500,0,14,37
+879,O'Connor Drive,B,None,53500,0,0,6
+880,Laxton Ave Project,2B,None,71500,0,11,3
+881,Metta Housing Co-Operative Inc,2B,None,71500,3,13,20
+882,O'Connor Drive Apartments,1B,None,62500,0,0,1
+883,Leonardo Court,1B,Senior 59+,62500,6,0,157
+884,Metta Housing Co-Operative Inc,3B,None,79000,0,3,6
+885,O'Connor Drive Apartments,2B,None,71500,5,0,71
+886,Lerette Manor,1B,Senior 59+,62500,8,0,176
+887,Metta Housing Co-Operative Inc,B,None,53500,2,0,21
+888,O'Connor Drive Apartments,3B,None,79000,4,0,116
+889,Lerette Manor,2B,Senior 59+,71500,0,0,2
+890,Midland Avenue,2B,None,71500,0,0,3
+891,O'Connor Drive Apartments,4B,None,82500,0,0,28
+892,Leslie/Finch,3B,None,79000,0,0,2
+893,Midland Avenue,3B,None,79000,0,0,25
+894,O'Connor Drive Apartments,5B,None,82500,0,0,12
+895,Leslie/Finch,5B,None,82500,0,0,4
+896,Midland Avenue,4B,None,82500,0,0,2
+897,O'Connor Drive Apartments,B,None,53500,0,0,6
+898,Lester B. Pearson Place,1B,None,62500,0,8,6
+899,Mimico Co-Operative Homes Inc. Apartments,1B,None,62500,1,6,62
+900,O'Connor Drive Rowhouses,1B,None,62500,0,0,1
+901,O'Connor Drive Rowhouses,2B,None,71500,5,0,71
+902,O'Connor Drive Rowhouses,3B,None,79000,4,0,116
+903,O'Connor Drive Rowhouses,4B,None,82500,0,0,28
+904,O'Connor Drive Rowhouses,5B,None,82500,0,0,12
+905,O'Connor Drive Rowhouses,B,None,53500,0,0,6
+906,Old York Towers,1B,Senior 59+,62500,7,13,97
+907,Old York Towers,2B,Senior 59+,71500,0,5,29
+908,Ontario Street Project,1B,None,62500,0,1,7
+909,Ontario Street Project,2B,None,71500,0,0,3
+910,Operating Engineers Local 793,1B,1 Bedrooms For Seniors 59+ Only,62500,1,23,53
+911,Operating Engineers Local 793,2B,1 Bedrooms For Seniors 59+ Only,71500,4,37,87
+912,Operating Engineers Local 793,3B,1 Bedrooms For Seniors 59+ Only,79000,1,6,15
+913,Orchard Grove Housing Co-Operative Inc Apartments,1B,None,62500,0,6,13
+914,Orchard Grove Housing Co-Operative Inc Apartments,2B,None,71500,2,13,45
+915,Orchard Grove Housing Co-Operative Inc Apartments,3B,None,79000,0,3,3
+916,Orchard Grove Housing Co-Operative Inc Stacked Rowhouses,1B,None,62500,0,6,13
+917,Orchard Grove Housing Co-Operative Inc Stacked Rowhouses,2B,None,71500,2,13,45
+918,Orchard Grove Housing Co-Operative Inc Stacked Rowhouses,3B,None,79000,0,3,3
+919,Our Lady Of Victory Sr Citizens Residence,1B,None,62500,2,29,70
+920,Our Lady Of Victory Sr Citizens Residence,2B,None,71500,1,17,9
+921,Our Saviour Thistletown Lutheran Lodge,1B,Senior 59+,62500,0,15,53
+922,Outlook Manor,1B,Senior 59+,62500,4,0,61
+923,Outlook Manor,B,Senior 59+,53500,12,0,214
+924,Overbrook Place,1B,None,62500,2,15,64
+925,Own Housing Co-Operative Inc,1B,None,62500,0,23,92
+926,Own Housing Co-Operative Inc,2B,None,71500,0,12,14
+927,Pal Place,1B,Performing Artist,62500,10,55,120
+928,Pal Place,B,Performing Artist,53500,1,0,24
+929,Palisades Housing Co-Op,1B,None,62500,0,1,11
+930,Palisades Housing Co-Op,2B,None,71500,0,11,21
+931,Palisades Housing Co-Op,3B,None,79000,0,5,19
+932,Parkwoods/Rayoak,1B,None,62500,1,0,33
+933,Parkwoods/Rayoak,2B,None,71500,3,0,73
+934,Lester B. Pearson Place,2B,None,71500,0,21,4
+935,Mimico Co-Operative Homes Inc. Apartments,2B,None,71500,5,23,50
+936,Lester B. Pearson Place,3B,None,79000,1,4,11
+937,Liberty Housing Co-Operative Inc.,1B,None,62500,0,6,26
+938,Mimico Co-Operative Homes Inc. Apartments,3B,None,79000,0,18,20
+939,Liberty Housing Co-Operative Inc.,2B,None,71500,0,1,22
+940,Mimico Co-Operative Homes Inc. Apartments,4B,None,82500,0,1,4
+941,Mimico Co-Operative Homes Inc. Townhouses,1B,None,62500,1,6,62
+942,Lightwood/Sanagan,3B,None,79000,0,0,56
+943,Mount Dennis Apartments,1B,None,62500,1,0,25
+944,Mimico Co-Operative Homes Inc. Townhouses,2B,None,71500,5,23,50
+945,Louise Towers,1B,Senior 59+,62500,2,0,29
+946,Mount Dennis Apartments,B,None,53500,20,0,221
+947,Mimico Co-Operative Homes Inc. Townhouses,3B,None,79000,0,18,20
+948,Louise Towers,B,Senior 59+,53500,3,0,70
+949,Muriel Collins Housing Co-Operative Inc.,1B,None,62500,1,13,16
+950,Mimico Co-Operative Homes Inc. Townhouses,4B,None,82500,0,1,4
+951,Loyola Arrupe Corporation,1B,Senior 59+,62500,9,33,65
+952,Muriel Collins Housing Co-Operative Inc.,2B,None,71500,2,44,22
+953,Montgomery Place,1B,Senior 59+,62500,6,1,56
+954,Loyola Arrupe Corporation,2B,Senior 59+,71500,0,34,2
+955,Muriel Collins Housing Co-Operative Inc.,3B,None,79000,0,6,7
+956,Montgomery Place,B,Senior 59+,53500,22,0,210
+957,Loyola Arrupe Corporation,B,Senior 59+,53500,1,1,20
+958,Mutual Street,1B,None,62500,0,16,16
+959,Moore Place,1B,Senior 59+,62500,2,0,47
+960,Mabelle Place,2B,None,71500,0,13,24
+961,Mutual Street,2B,None,71500,1,44,44
+962,Moore Place,B,Senior 59+,53500,17,0,139
+963,Mabelle Place,3B,None,79000,0,67,27
+964,Mutual Street,3B,None,79000,0,12,13
+965,Mornelle/Ellesmere,1B,None,62500,2,0,50
+966,Malvern 2 North,3B,None,79000,0,0,150
+967,Mutual Street Project,1B,None,62500,0,16,17
+968,Mornelle/Ellesmere,2B,None,71500,0,0,87
+969,Malvern 2 North,4B,None,82500,0,0,56
+970,Mutual Street Project,2B,None,71500,0,25,26
+971,Mornelle/Ellesmere,3B,None,79000,0,0,8
+972,Malvern 2 North,5B,None,82500,0,0,6
+973,Mutual Street Project,3B,None,79000,0,6,7
+974,Mornelle/Morningside,1B,None,62500,0,0,73
+975,Malvern 2 Rowhouses North,3B,None,79000,0,0,150
+976,Mutually Assisting Residential Community,1B,None,62500,0,1,10
+977,Mornelle/Morningside,2B,None,71500,3,0,114
+978,Malvern 2 Rowhouses North,4B,None,82500,0,0,56
+979,Mutually Assisting Residential Community,2B,None,71500,4,44,28
+980,Mornelle/Morningside,3B,None,79000,0,0,11
+981,Malvern 2 Rowhouses North,5B,None,82500,0,0,6
+982,Mutually Assisting Residential Community,3B,None,79000,0,3,4
+983,Morningside Apartments,1B,None,62500,2,0,39
+984,Malvern 2 Rowhouses South,3B,None,79000,0,0,150
+985,My Building,1B,None,62500,3,3,36
+986,Morningside Apartments,B,None,53500,18,0,306
+987,Malvern 2 Rowhouses South,4B,None,82500,0,0,56
+988,My Building,2B,None,71500,1,2,12
+989,Morningside/Coronation,3B,None,79000,3,0,89
+990,Malvern 2 Rowhouses South,5B,None,82500,0,0,6
+991,My Building,3B,None,79000,0,1,5
+992,Morningside/Coronation,4B,None,82500,3,0,12
+993,Malvern 2 South,3B,None,79000,0,0,150
+994,Nakiska Co-Operative Homes Inc. Apartments,1B,None,62500,1,11,18
+995,Morningside/Ling,1B,None,62500,2,0,32
+996,Malvern 2 South,4B,None,82500,0,0,56
+997,Nakiska Co-Operative Homes Inc. Apartments,2B,None,71500,1,23,23
+998,Morningside/Ling,2B,None,71500,2,0,60
+999,Malvern 2 South,5B,None,82500,0,0,6
+1000,Nakiska Co-Operative Homes Inc. Apartments,3B,None,79000,1,1,25
+1001,Morningside/Ling,3B,None,79000,0,0,7
+1002,Malvern 2 Townhouses North,3B,None,79000,0,0,150
+1003,Nakiska Co-Operative Homes Inc. Apartments,4B,None,82500,0,0,6
+1004,Morningside/Ling,B,None,53500,0,0,1
+1005,Malvern 2 Townhouses North,4B,None,82500,0,0,56
+1006,Nakiska Co-Operative Homes Inc. Townhouses,1B,None,62500,1,11,18
+1007,Moshav Noam Co-Op,1B,None,62500,2,13,48
+1008,Malvern 2 Townhouses North,5B,None,82500,0,0,6
+1009,Nakiska Co-Operative Homes Inc. Townhouses,2B,None,71500,1,23,23
+1010,Moshav Noam Co-Op,2B,None,71500,3,24,36
+1011,Malvern 2 Townhouses South,3B,None,79000,0,0,150
+1012,Nakiska Co-Operative Homes Inc. Townhouses,3B,None,79000,1,1,25
+1013,Moshav Noam Co-Op,3B,None,79000,1,2,7
+1014,Malvern 2 Townhouses South,4B,None,82500,0,0,56
+1015,Nakiska Co-Operative Homes Inc. Townhouses,4B,None,82500,0,0,6
+1016,Moshav Noam Co-Op,4B,None,82500,0,0,3
+1017,Malvern 2 Townhouses South,5B,None,82500,0,0,6
+1018,Neilson Hall Apartments,1B,Senior 59+,62500,0,3,119
+1019,Moss Park,1B,None,62500,15,0,469
+1020,Maple Leaf Drive Seniors,1B,Senior 59+,62500,4,7,133
+1021,Neilson Hall Apartments,2B,Senior 59+,71500,0,0,4
+1022,Moss Park,2B,None,71500,4,0,195
+1023,Maple Leaf Drive Seniors,2B,Senior 59+,71500,0,4,15
+1024,Neptune,2B,None,71500,0,0,26
+1025,Moss Park,3B,None,79000,0,0,33
+1026,Margaret Laurence Housing Co-Operative,1B,None,62500,0,13,81
+1027,Neptune,3B,None,79000,2,0,108
+1028,Moss Park,4B,None,82500,0,0,12
+1029,New Hibret Co-Operative Homes Inc,1B,None,62500,0,23,34
+1030,Moss Park,B,None,53500,4,0,195
+1031,New Hibret Co-Operative Homes Inc,2B,None,71500,0,15,33
+1032,New Hibret Co-Operative Homes Inc,3B,None,79000,0,10,26
+1033,New Spadina Garment Industry,2B,None,71500,0,30,30
+1034,New Spadina Garment Industry,3B,None,79000,0,25,25
+1035,Newbold Avenue Project,1B,None,62500,1,6,1
+1036,Newbold Avenue Project,2B,None,71500,0,4,7
+1037,Newbold Avenue Project,3B,None,79000,0,1,2
+1038,Niagara Neighbourhood Housing Co-Operative,1B,None,62500,0,8,12
+1039,Niagara Neighbourhood Housing Co-Operative,2B,None,71500,0,12,26
+1040,Niagara Neighbourhood Housing Co-Operative,3B,None,79000,0,1,3
+1041,Norm Houghton Complex Ii,1B,None,62500,0,6,3
+1042,Norm Houghton Complex Ii,2B,None,71500,0,3,41
+1043,Norm Houghton Complex Ii,3B,None,79000,0,1,4
+1044,Norm Houghton Complex Ii,4B,None,82500,0,0,1
+1045,Norm Houghton Complex Ii,B,None,53500,0,0,3
+1046,Northacres,1B,Senior 59+,62500,0,0,64
+1047,Northacres,B,Senior 59+,53500,8,0,63
+1048,Northcliffe,1B,None,62500,0,13,14
+1049,Northcliffe,2B,None,71500,0,12,15
+1050,Northminster Residences Of Toronto,1B,None,62500,0,7,24
+1051,Parkwoods/Rayoak,3B,None,79000,0,0,39
+1052,Peggy And Andrew Brewin Housing Co-Op Apartments,1B,None,62500,0,6,32
+1053,Peggy And Andrew Brewin Housing Co-Op Apartments,2B,None,71500,0,0,8
+1054,Peggy And Andrew Brewin Housing Co-Op Apartments,3B,None,79000,0,1,3
+1055,Peggy And Andrew Brewin Housing Co-Op Apartments,B,None,53500,1,3,23
+1056,Pelham Park Gardens Apartments,1B,None,62500,2,0,64
+1057,Pelham Park Gardens Apartments,2B,None,71500,0,0,0
+1058,Pelham Park Gardens Apartments,3B,None,79000,2,0,76
+1059,Pelham Park Gardens Apartments,4B,None,82500,0,0,16
+1060,Pelham Park Gardens Apartments,5B,None,82500,0,0,15
+1061,Pelham Park Gardens Apartments,B,None,53500,13,0,288
+1062,Pelham Park Gardens Townhouses,1B,None,62500,2,0,64
+1063,Pelham Park Gardens Townhouses,2B,None,71500,0,0,0
+1064,Pelham Park Gardens Townhouses,3B,None,79000,2,0,76
+1065,Pelham Park Gardens Townhouses,4B,None,82500,0,0,16
+1066,Pelham Park Gardens Townhouses,5B,None,82500,0,0,15
+1067,Pelham Park Gardens Townhouses,B,None,53500,13,0,288
+1068,Pembroke Mews Apartments,1B,None,62500,2,0,27
+1069,Pembroke Mews Apartments,2B,None,71500,2,0,32
+1070,Pembroke Mews Apartments,3B,None,79000,0,0,38
+1071,Pembroke Mews Apartments,4B,None,82500,0,2,3
+1072,Pembroke Mews Apartments,5B,None,82500,0,0,1
+1073,Pembroke Mews Apartments,B,None,53500,3,20,96
+1074,Pembroke Street,1B,None,62500,0,3,3
+1075,Pembroke Street,2B,None,71500,0,0,2
+1076,Pendrith Park,1B,None,62500,0,0,7
+1077,Pendrith Park,2B,None,71500,1,0,30
+1078,Pendrith Park,3B,None,79000,0,0,17
+1079,Peregrine Co-Operative Homes Inc,1B,None,62500,2,23,49
+1080,Peregrine Co-Operative Homes Inc,2B,None,71500,1,19,59
+1081,Peregrine Co-Operative Homes Inc,3B,None,79000,0,7,17
+1082,Phin Park,1B,None,62500,0,0,24
+1083,Phin Park,4B,None,82500,0,0,10
+1084,Pinefield/Marie Fernanda,1B,None,62500,2,7,36
+1085,Pinefield/Marie Fernanda,2B,None,71500,0,13,96
+1086,Pinefield/Marie Fernanda,3B,None,79000,0,2,56
+1087,Plaut Manor,1B,None,62500,0,0,46
+1088,Plaut Manor,2B,None,71500,3,0,32
+1089,Plaut Manor,3B,None,79000,0,0,7
+1090,Project Amik,1B,None,62500,0,9,50
+1091,Project Amik,2B,None,71500,0,2,7
+1092,Project Amik,3B,None,79000,0,0,6
+1093,Queen Victoria,2B,None,71500,0,4,5
+1094,Queen/Vanauley Project Apartments,1B,None,62500,1,28,32
+1095,Queen/Vanauley Project Apartments,2B,None,71500,1,36,39
+1096,Queen/Vanauley Project Apartments,3B,None,79000,0,0,4
+1097,Queen/Vanauley Project Townhouses,1B,None,62500,1,28,32
+1098,Queen/Vanauley Project Townhouses,2B,None,71500,1,36,39
+1099,Queen/Vanauley Project Townhouses,3B,None,79000,0,0,4
+1100,Queens Quay West,1B,None,62500,0,26,26
+1101,Margaret Laurence Housing Co-Operative,2B,None,71500,0,18,18
+1102,Margaret Laurence Housing Co-Operative,3B,None,79000,0,8,6
+1103,Margaret Laurence Housing Co-Operative,B,None,53500,0,2,14
+1104,Marjory Carton Apartments,1B,Senior 59+,62500,1,0,33
+1105,Marjory Carton Apartments,B,Senior 59+,53500,3,0,92
+1106,Marketview Housing Co-Op,1B,None,62500,1,16,33
+1107,Marketview Housing Co-Op,2B,None,71500,1,13,39
+1108,Marketview Housing Co-Op,3B,None,79000,0,1,10
+1109,Martin Grove/Albion,3B,None,79000,0,0,32
+1110,Martin Grove/Albion,4B,None,82500,0,0,6
+1111,Masaryktown Non-Profit Residences Inc,1B,None,62500,2,1,53
+1112,Masaryktown Non-Profit Residences Inc,2B,None,71500,2,34,49
+1113,Masaryktown Non-Profit Residences Inc,3B,None,79000,2,9,41
+1114,Mascot Place Co-Operative Homes Inc,1B,None,62500,0,7,12
+1115,Mascot Place Co-Operative Homes Inc,2B,None,71500,1,18,28
+1116,Mascot Place Co-Operative Homes Inc,3B,None,79000,0,3,3
+1117,Maurice Coulter Housing Co-Operative,1B,None,62500,0,5,1
+1118,Maurice Coulter Housing Co-Operative,2B,None,71500,7,10,60
+1119,Maurice Coulter Housing Co-Operative,3B,None,79000,1,7,6
+1120,Maurice Coulter Housing Co-Operative,4B,None,82500,0,4,6
+1121,Maurice Coulter Housing Co-Operative Apartments,1B,None,62500,0,5,1
+1122,Maurice Coulter Housing Co-Operative Apartments,2B,None,71500,7,10,60
+1123,Maurice Coulter Housing Co-Operative Apartments,3B,None,79000,1,7,6
+1124,Maurice Coulter Housing Co-Operative Apartments,4B,None,82500,0,4,6
+1125,May Birchard Apartments,1B,Senior 59+,62500,0,0,3
+1126,May Birchard Apartments,B,Senior 59+,53500,0,0,26
+1127,May Robinson Apartments,1B,Senior 59+,62500,5,0,152
+1128,May Robinson Apartments,B,Senior 59+,53500,20,0,244
+1129,McCaul Street Project Apartments,1B,None,62500,2,41,52
+1130,McCaul Street Project Apartments,2B,None,71500,1,10,45
+1131,McCaul Street Project Apartments,3B,None,79000,0,0,7
+1132,McCaul Street Project Rowhouses,1B,None,62500,2,41,52
+1133,McCaul Street Project Rowhouses,2B,None,71500,1,10,45
+1134,McCaul Street Project Rowhouses,3B,None,79000,0,0,7
+1135,McCaul Street Project Townhouses,1B,None,62500,2,41,52
+1136,McCaul Street Project Townhouses,2B,None,71500,1,10,45
+1137,McCaul Street Project Townhouses,3B,None,79000,0,0,7
+1138,McClain Park Apartments,1B,None,62500,6,0,65
+1139,McClain Park Apartments,B,None,53500,13,0,286
+1140,McClintock Manor,1B,Christian - Senior 59+,62500,0,7,43
+1141,McClintock Manor,2B,Christian - Senior 59+,71500,0,9,1
+1142,McClintock Manor,B,Christian - Senior 59+,53500,1,0,1
+1143,McCormick Park,1B,None,62500,0,0,28
+1144,McCormick Park,2B,None,71500,2,0,37
+1145,McCormick Park,3B,None,79000,0,0,26
+1146,McCormick Park,B,None,53500,2,0,14
+1147,McCowan Road 1 Apartments,1B,None,62500,0,0,56
+1148,McCowan Road 1 Apartments,2B,None,71500,3,0,113
+1149,McCowan Road 1 Apartments,3B,None,79000,0,0,73
+1150,McCowan Road 1 Apartments,4B,None,82500,0,0,16
+1151,Knights Village Non-Profit Homes Inc Central Hall,3B,None,79000,0,15,165
+1152,Knights Village Non-Profit Homes Inc Stacked Rowhouses,1B,None,62500,0,9,90
+1153,Knights Village Non-Profit Homes Inc Stacked Rowhouses,2B,None,71500,0,8,64
+1154,Knights Village Non-Profit Homes Inc Stacked Rowhouses,3B,None,79000,0,15,165
+1155,La Paz Co-Op Homes Inc Apartments,1B,None,62500,0,0,7
+1156,La Paz Co-Op Homes Inc Apartments,2B,None,71500,1,12,6
+1157,La Paz Co-Op Homes Inc Apartments,3B,None,79000,0,20,12
+1158,La Paz Co-Op Homes Inc Apartments,4B,None,82500,0,3,5
+1159,La Paz Co-Op Homes Inc Townhouses,1B,None,62500,0,0,7
+1160,La Paz Co-Op Homes Inc Townhouses,2B,None,71500,1,12,6
+1161,La Paz Co-Op Homes Inc Townhouses,3B,None,79000,0,20,12
+1162,La Paz Co-Op Homes Inc Townhouses,4B,None,82500,0,3,5
+1163,La Place St. Laurent,1B,French Speaking Seniors,62500,3,20,60
+1164,La Place St. Laurent,2B,French Speaking Seniors,71500,1,15,40
+1165,Lakeshore Gardens Co-Operative Homes Inc Apartments,1B,None,62500,1,4,40
+1166,Lakeshore Gardens Co-Operative Homes Inc Apartments,2B,None,71500,2,44,45
+1167,Lakeshore Gardens Co-Operative Homes Inc Apartments,3B,None,79000,0,3,12
+1168,Lakeshore Gardens Co-Operative Homes Inc Apartments,4B,None,82500,0,2,1
+1169,Lakeshore Gardens Co-Operative Homes Inc Stacked Rowhouses,1B,None,62500,1,4,40
+1170,Lakeshore Gardens Co-Operative Homes Inc Stacked Rowhouses,2B,None,71500,2,44,45
+1171,Lakeshore Gardens Co-Operative Homes Inc Stacked Rowhouses,3B,None,79000,0,3,12
+1172,Lakeshore Gardens Co-Operative Homes Inc Stacked Rowhouses,4B,None,82500,0,2,1
+1173,Lakeshore Gardens Co-Operative Homes Inc Townhouses,1B,None,62500,1,4,40
+1174,Lakeshore Gardens Co-Operative Homes Inc Townhouses,2B,None,71500,2,44,45
+1175,Lakeshore Gardens Co-Operative Homes Inc Townhouses,3B,None,79000,0,3,12
+1176,Lakeshore Gardens Co-Operative Homes Inc Townhouses,4B,None,82500,0,2,1
+1177,Lakeshore Village Artists Co-Op,1B,Artist,62500,0,12,68
+1178,Lakeshore Village Artists Co-Op,2B,Artist,71500,0,3,51
+1179,Lakeshore Village Artists Co-Op,3B,Artist,79000,0,4,44
+1180,Lambert Court Apartments,1B,None,62500,0,20,12
+1181,Lambert Court Apartments,2B,None,71500,1,39,17
+1182,Lambert Court Apartments,3B,None,79000,0,14,8
+1183,Lambert Court Stacked Rowhouses,1B,None,62500,0,20,12
+1184,Lambert Court Stacked Rowhouses,2B,None,71500,1,39,17
+1185,Lambert Court Stacked Rowhouses,3B,None,79000,0,14,8
+1186,Larch Street,1B,None,62500,0,9,23
+1187,Larch Street,2B,None,71500,0,6,10
+1188,Larch Street,3B,None,79000,0,4,6
+1189,Larch Street,B,None,53500,0,2,12
+1190,Las Flores Non-Profit,1B,None,62500,7,6,7
+1191,Las Flores Non-Profit,2B,None,71500,0,5,4
+1192,Las Flores Non-Profit,3B,None,79000,0,3,2
+1193,Lawrence Heights,4B,None,82500,1,0,117
+1194,Lawrence Heights,5B,None,82500,0,0,38
+1195,Lawrence Heights Rowhouses,3B,None,79000,2,0,481
+1196,Lawrence Heights Rowhouses,4B,None,82500,1,0,117
+1197,Lawrence Heights Walkup,1B,None,62500,4,0,210
+1198,Lawrence Heights Walkup,2B,None,71500,2,0,236
+1199,Lawrence Heights Walkup,3B,None,79000,2,0,481
+1200,Lawrence/Orton Apartments,1B,None,62500,4,0,76
+1201,Queens Quay West,2B,None,71500,0,16,16
+1202,Queens Quay West,3B,None,79000,0,7,7
+1203,Queens Quay West,B,None,53500,0,7,1
+1204,Queensway/Windermere,3B,None,79000,0,0,149
+1205,Queensway/Windermere,4B,None,82500,0,0,4
+1206,Rakoczi Villa 11,1B,None,62500,0,14,30
+1207,Rakoczi Villa 11,2B,None,71500,0,0,1
+1208,Rakoczi Villa 11,B,None,53500,6,16,36
+1209,Rakoczi Villa I,1B,Senior 59+,62500,2,28,66
+1210,Rakoczi Villa I,2B,Senior 59+,71500,0,1,2
+1211,The Railway Lands Apartments,5B,None,82500,0,1,1
+1212,Richview Residence 1 & 11,1B,Senior 59+,62500,2,54,66
+1213,Secord Avenue Co-Operative Homes,2B,None,71500,1,8,13
+1214,Stephenson Avenue Project Stacked Rowhouses,2B,None,71500,0,13,4
+1215,Richview Residence 1 & 11,2B,Senior 59+,71500,0,5,3
+1216,Ridelle Co-Operative Homes,1B,None,62500,0,4,20
+1217,Ridelle Co-Operative Homes,2B,None,71500,1,24,11
+1218,Ridelle Co-Operative Homes,B,None,53500,1,2,2
+1219,Ridgeford Charitable Foundation,NULL,None,0,0,0,0
+1220,Riverdale Acres,B,Senior 59+,53500,1,0,25
+1221,Riverdale Co-Operative Houses Inc.,1B,None,62500,0,5,14
+1222,Riverdale Co-Operative Houses Inc.,2B,None,71500,0,1,16
+1223,Riverdale Co-Operative Houses Inc.,3B,None,79000,0,7,7
+1224,Riverdale Co-Operative Houses Inc.,B,None,53500,0,0,6
+1225,Riverdale Mews,3B,None,79000,0,10,12
+1226,Rivertowne Apartments,1B,None,62500,0,0,58
+1227,Rivertowne Apartments,2B,None,71500,1,0,173
+1228,Rivertowne Apartments,3B,None,79000,0,0,142
+1229,Rivertowne Apartments,4B,None,82500,0,0,54
+1230,Rivertowne Apartments,5B,None,82500,0,0,20
+1231,Rivertowne Apartments,B,None,53500,0,0,18
+1232,Rivertowne Townhouses,1B,None,62500,0,0,58
+1233,Rivertowne Townhouses,2B,None,71500,1,0,173
+1234,Rivertowne Townhouses,3B,None,79000,0,0,142
+1235,Rivertowne Townhouses,4B,None,82500,0,0,54
+1236,Rivertowne Townhouses,5B,None,82500,0,0,20
+1237,Rivertowne Townhouses,B,None,53500,0,0,18
+1238,Robert Cooke Co-Operative Homes,1B,None,62500,0,6,22
+1239,Robert Cooke Co-Operative Homes,2B,None,71500,2,10,48
+1240,Robert Cooke Co-Operative Homes,3B,None,79000,0,2,10
+1241,Robert Cooke Co-Operative Homes,4B,None,82500,0,2,6
+1242,Robert Cooke Co-Operative Homes Apartments,1B,None,62500,0,6,22
+1243,Robert Cooke Co-Operative Homes Apartments,2B,None,71500,2,10,48
+1244,Robert Cooke Co-Operative Homes Apartments,3B,None,79000,0,2,10
+1245,Robert Cooke Co-Operative Homes Apartments,4B,None,82500,0,2,6
+1246,Robert J Smith Apartments,1B,None,62500,7,0,104
+1247,Robert J Smith Apartments,B,None,53500,18,0,313
+1248,Robin Gardner Voce Non-Profit Homes,1B,None,62500,0,4,23
+1249,Robin Gardner Voce Non-Profit Homes,2B,None,71500,0,5,41
+1250,Robin Gardner Voce Non-Profit Homes,3B,None,79000,0,6,26
+1251,Robin Gardner Voce Non-Profit Homes,4B,None,82500,0,2,6
+1252,Robin Gardner Voce Non-Profit Homes,5B,None,82500,0,0,2
+1253,Roding Park Place,1B,None,62500,0,30,68
+1254,Roding Park Place,2B,None,71500,0,7,19
+1255,The Rankin Apartments,1B,None,62500,6,55,250
+1256,Stephenson Avenue Project Stacked Rowhouses,3B,None,79000,0,2,3
+1257,Roselawn/Marlee,1B,None,62500,2,0,206
+1258,Secord Avenue Co-Operative Homes,3B,None,79000,0,6,12
+1259,The Shermount,1B,Senior 59+,62500,0,0,14
+1260,Stephenson Avenue Project Stacked Rowhouses,B,None,53500,0,8,7
+1261,Roselawn/Marlee,2B,None,71500,0,0,1
+1262,Senator David Croll Apts,1B,None,62500,1,92,135
+1263,Senator David Croll Apts,2B,None,71500,0,15,0
+1264,Senator David Croll Apts,B,None,53500,0,35,49
+1265,Seneca Towers,1B,Senior 59+,62500,4,0,70
+1266,Seneca Towers,B,Senior 59+,53500,10,0,205
+1267,Sentinel Road,2B,None,71500,0,0,19
+1268,Sentinel Road,3B,None,79000,0,0,39
+1269,Sewells Road,1B,None,62500,0,0,33
+1270,Sewells Road,2B,None,71500,2,0,27
+1271,Sewells Road,3B,None,79000,1,0,21
+1272,Sewells Road,4B,None,82500,0,0,2
+1273,Sewells Road,B,None,53500,0,0,9
+1274,Shaughnessy_Blvd,3B,None,79000,0,0,29
+1275,Sheppard Place,1B,Senior 59+,62500,3,0,77
+1276,Sheppard Place,B,Senior 59+,53500,19,0,224
+1277,Sheppard/Birchmount 1 Apartments,1B,None,62500,0,0,65
+1278,Sheppard/Birchmount 1 Apartments,2B,None,71500,2,0,114
+1279,Sheppard/Birchmount 1 Apartments,3B,None,79000,0,0,75
+1280,Sheppard/Birchmount 1 Apartments,4B,None,82500,0,0,26
+1281,Sheppard/Birchmount 1 Rowhouses,1B,None,62500,0,0,65
+1282,Sheppard/Birchmount 1 Rowhouses,2B,None,71500,2,0,114
+1283,Sheppard/Birchmount 1 Rowhouses,3B,None,79000,0,0,75
+1284,Sheppard/Birchmount 1 Rowhouses,4B,None,82500,0,0,26
+1285,Sheppard/Magellan,3B,None,79000,0,0,74
+1286,Sheppard/Magellan,4B,None,82500,0,0,6
+1287,Sheppard/Victoria Pk,1B,None,62500,2,0,173
+1288,Sheppard/Victoria Pk,2B,None,71500,7,0,202
+1289,Sheppard/Victoria Pk,3B,None,79000,0,0,29
+1290,Sheppard/Yatescastle,3B,None,79000,0,0,137
+1291,Sheppard/Yatescastle Rowhouses,3B,None,79000,0,0,137
+1292,Sherbourne,1B,None,62500,0,0,1
+1293,Sherbourne,3B,None,79000,0,1,3
+1294,Sherbourne,4B,None,82500,0,1,0
+1295,Sherbourne/Shuter,1B,None,62500,12,0,179
+1296,Sherbourne/Shuter,3B,None,79000,0,0,1
+1297,Sherbourne/Shuter,B,None,53500,12,0,121
+1298,Shoniker Place,1B,Senior 59+,62500,0,13,93
+1299,Shoniker Place,2B,Senior 59+,71500,0,3,8
+1300,Silverthorn Place,1B,Senior 59+,62500,7,0,200
+1301,Simcoe Street,1B,None,62500,0,14,17
+1302,Simcoe Street,2B,None,71500,1,20,22
+1303,Simcoe Street,3B,None,79000,0,6,6
+1304,Simcoe Street,B,None,53500,0,10,12
+1305,Spencer Avenue,1B,None,62500,0,0,26
+1306,Spencer Avenue,2B,None,71500,0,0,1
+1307,Spencer Avenue,B,None,53500,1,0,30
+1308,Spencer Avenue Co-Operative Homes Inc,1B,None,62500,0,4,10
+1309,Spencer Avenue Co-Operative Homes Inc,2B,None,71500,0,0,30
+1310,The Sherwood,1B,Senior 59+,62500,0,0,105
+1311,Stephenson Avenue Project Townhouses,1B,None,62500,0,4,9
+1312,Roselawn/Marlee,B,None,53500,2,0,46
+1313,Stephenson Avenue Project Townhouses,2B,None,71500,0,13,4
+1314,The St. Margaret's Towers Inc.,1B,None,62500,1,23,47
+1315,Stephenson Avenue Project Townhouses,3B,None,79000,0,2,3
+1316,The St. Margaret's Towers Inc.,2B,None,71500,0,13,29
+1317,Rowntree Manor,1B,None,62500,1,23,4
+1318,The St. Margaret's Towers Inc.,3B,None,79000,0,4,11
+1319,The Wexford,1B,Senior 59+,62500,2,63,9
+1320,Rowntree Manor,2B,None,71500,2,128,27
+1321,Stephenson Avenue Project Townhouses,B,None,53500,0,8,7
+1322,The Wexford,B,Senior 59+,53500,1,2,14
+1323,Rowntree Manor,3B,None,79000,1,28,27
+1324,Sts. Peter And Paul Ukrainian Community Homes,1B,Seniors 59+,62500,4,50,93
+1325,Thistletown 1 Central Hall,3B,None,79000,11,0,441
+1326,Roywood Drive,2B,None,71500,0,0,12
+1327,Sullivan Project Townhouses,1B,None,62500,0,3,9
+1328,Thistletown 1 Central Hall,4B,None,82500,0,0,76
+1329,Roywood Drive,3B,None,79000,1,0,72
+1330,Sullivan Project Townhouses,2B,None,71500,0,3,9
+1331,Thistletown 1 Central Hall,5B,None,82500,0,0,39
+1332,Roywood Drive Central Hall,2B,None,71500,0,0,12
+1333,Sullivan Project Townhouses,3B,None,79000,0,3,4
+1334,Thistletown 1 Rowhouses,3B,None,79000,11,0,441
+1335,Roywood Drive Central Hall,3B,None,79000,1,0,72
+1336,Sullivan Project Walkup,1B,None,62500,0,3,9
+1337,Thistletown 1 Rowhouses,4B,None,82500,0,0,76
+1338,Sackville Street,B,None,53500,1,14,6
+1339,Sullivan Project Walkup,2B,None,71500,0,3,9
+1340,Thistletown 1 Rowhouses,5B,None,82500,0,0,39
+1341,Salvador Del Mundo Co-Op - Upwood Park,1B,None,62500,3,7,44
+1342,Sullivan Project Walkup,3B,None,79000,0,3,4
+1343,Thistletown 1 Stacked Rowhouses,3B,None,79000,11,0,441
+1344,Salvador Del Mundo Co-Op - Upwood Park,2B,None,71500,3,24,170
+1345,Sunrise 1,1B,None,62500,1,10,40
+1346,Thistletown 1 Stacked Rowhouses,4B,None,82500,0,0,76
+1347,Salvador Del Mundo Co-Op - Upwood Park,3B,None,79000,0,3,64
+1348,Sunrise 1,2B,None,71500,0,4,16
+1349,Thistletown 1 Stacked Rowhouses,5B,None,82500,0,0,39
+1350,Sanderling Place,1B,Senior 59+,62500,3,0,90
+1351,Sunrise 1,3B,None,79000,0,2,3
+1352,Thorncliffe Park Apartments,1B,None,62500,0,8,35
+1353,Saranac Apartments,1B,Senior 59+,62500,0,0,46
+1354,Sunrise Towers,1B,Senior 59+,62500,3,0,79
+1355,Thorncliffe Park Apartments,2B,None,71500,0,15,20
+1356,Saranac Apartments,B,Senior 59+,53500,0,0,135
+1357,Sunrise Towers,B,Senior 59+,53500,12,0,251
+1358,Thorncliffe Park Co-Operative Homes,1B,None,62500,0,10,13
+1359,Scadding Court Apartments,1B,None,62500,0,100,65
+1360,Swansea Town Hall Residences,1B,Senior 59+,62500,0,15,37
+1361,Thorncliffe Park Co-Operative Homes,2B,None,71500,0,27,24
+1362,Scadding Court Apartments,2B,None,71500,0,99,63
+1363,Swansea Town Hall Residences,2B,Senior 59+,71500,0,11,5
+1364,Tobias House 1,1B,None,62500,1,11,47
+1365,Scadding Court Apartments,3B,None,79000,0,4,12
+1366,Symington Place Project Apartments,1B,None,62500,3,53,55
+1367,Tobias House 1,2B,None,71500,0,1,7
+1368,Scadding Court Apartments,B,None,53500,10,124,79
+1369,Symington Place Project Apartments,2B,None,71500,0,6,46
+1370,Tobias House 1,B,None,53500,2,20,35
+1371,Scadding Court Townhouses,1B,None,62500,0,100,65
+1372,Symington Place Project Apartments,3B,None,79000,0,3,21
+1373,Tobias House 11,1B,Senior 59+ Only,62500,4,32,73
+1374,Tandridge Crescent 1 Rowhouses,2B,None,71500,6,0,114
+1375,Scadding Court Townhouses,2B,None,71500,0,99,63
+1376,Symington Place Project Apartments,4B,None,82500,0,0,1
+1377,Tobias House 11,2B,Senior 59+ Only,71500,1,15,33
+1378,Scadding Court Townhouses,3B,None,79000,0,4,12
+1379,Tandridge Crescent 1 Rowhouses,3B,None,79000,3,0,135
+1380,Symington Place Project Apartments,B,None,53500,3,20,43
+1381,Tobias House 11,B,Senior 59+ Only,53500,0,0,1
+1382,Scadding Court Townhouses,B,None,53500,10,124,79
+1383,Tandridge Crescent 1 Rowhouses,4B,None,82500,0,0,11
+1384,Symington Place Project Townhouses,1B,None,62500,3,53,55
+1385,Torbolton Drive,3B,None,79000,0,0,17
+1386,Scarborough Acres,1B,Senior 59+,62500,0,0,8
+1387,Scarborough Acres,B,Senior 59+,53500,0,0,8
+1388,Scarborough Heights Co-Operative Homes Inc,1B,None,62500,0,22,11
+1389,Scarborough Heights Co-Operative Homes Inc,2B,None,71500,0,30,34
+1390,Scarborough Heights Co-Operative Homes Inc,3B,None,79000,0,2,9
+1391,Scarlett Manor,1B,None,62500,0,4,6
+1392,Scarlett Manor,2B,None,71500,0,49,48
+1393,Scarlett Manor,3B,None,79000,0,9,12
+1394,Scarlett Woods Apartments,1B,None,62500,0,0,2
+1395,Scarlett Woods Apartments,2B,None,71500,6,0,73
+1396,Scarlett Woods Apartments,3B,None,79000,1,0,51
+1397,Scarlett Woods Apartments,4B,None,82500,0,0,17
+1398,Scarlett Woods Apartments,5B,None,82500,0,0,5
+1399,Scarlett Woods Townhouses,1B,None,62500,0,0,2
+1400,Scarlett Woods Townhouses,2B,None,71500,6,0,73
+1401,Scarlett Woods Townhouses,3B,None,79000,1,0,51
+1402,Scarlett Woods Townhouses,4B,None,82500,0,0,17
+1403,Scarlett Woods Townhouses,5B,None,82500,0,0,5
+1404,Scarlett Woods Walkup,1B,None,62500,0,0,2
+1405,Scarlett Woods Walkup,2B,None,71500,6,0,73
+1406,Scarlett Woods Walkup,3B,None,79000,1,0,51
+1407,Scarlett Woods Walkup,4B,None,82500,0,0,17
+1408,Scarlett Woods Walkup,5B,None,82500,0,0,5
+1409,Secord Avenue Co-Operative Homes,1B,None,62500,1,5,14
+1410,Tandridge Crescent 1 Rowhouses,B,None,53500,0,0,30
+1411,Trefann Court,1B,None,62500,1,10,16
+1412,Symington Place Project Townhouses,2B,None,71500,0,6,46
+1413,Taylor Creek Co-Operative Homes Apartments,1B,None,62500,1,9,20
+1414,Trefann Court,2B,None,71500,0,2,12
+1415,Symington Place Project Townhouses,3B,None,79000,0,3,21
+1416,Taylor Creek Co-Operative Homes Apartments,2B,None,71500,2,32,29
+1417,Trefann Court,3B,None,79000,0,3,3
+1418,Symington Place Project Townhouses,4B,None,82500,0,0,1
+1419,Taylor Creek Co-Operative Homes Apartments,3B,None,79000,0,11,4
+1420,Trefann Court,B,None,53500,0,6,6
+1421,Symington Place Project Townhouses,B,None,53500,3,20,43
+1422,Taylor Creek Co-Operative Homes Townhouses,1B,None,62500,1,9,20
+1423,Trethewey/Tedder,1B,None,62500,1,0,32
+1424,Tahanan Non-Profit Homes,1B,None,62500,1,4,23
+1425,Taylor Creek Co-Operative Homes Townhouses,2B,None,71500,2,32,29
+1426,Victoria Shuter Non-Profit,2B,None,71500,1,12,40
+1427,Trethewey/Tedder,2B,None,71500,6,0,323
+1428,Tahanan Non-Profit Homes,2B,None,71500,0,3,10
+1429,Taylor Creek Co-Operative Homes Townhouses,3B,None,79000,0,11,4
+1430,Trethewey/Tedder,3B,None,79000,1,0,14
+1431,Victoria Shuter Non-Profit,3B,None,79000,1,0,14
+1432,Tahanan Non-Profit Homes,3B,None,79000,0,2,2
+1433,Trimbee Court,1B,None,62500,3,88,25
+1434,Teesdale/Pharmacy,1B,None,62500,9,139,276
+1435,Tam O'shanter Towers,1B,Senior 59+,62500,1,0,36
+1436,Victoria Shuter Non-Profit,B,None,53500,3,3,25
+1437,Tam O'shanter Towers,B,Senior 59+,53500,19,0,264
+1438,Trimbee Court,2B,None,71500,2,104,30
+1439,Teesdale/Pharmacy,2B,None,71500,3,0,274
+1440,Villa Campoamor,1B,None,62500,0,10,34
+1441,Tamil Co-Operative Homes Inc,1B,None,62500,0,8,22
+1442,Trimbee Court,3B,None,79000,0,3,5
+1443,Teesdale/Pharmacy,3B,None,79000,0,0,4
+1444,Villa Campoamor,2B,None,71500,3,27,31
+1445,Tamil Co-Operative Homes Inc,2B,None,71500,0,17,62
+1446,Tyndall Avenue Project,1B,None,62500,1,11,17
+1447,Terra Bella Family Complex,1B,None,62500,0,0,14
+1448,Villa Campoamor,B,None,53500,0,3,1
+1449,Tamil Co-Operative Homes Inc,3B,None,79000,0,2,17
+1450,Tyndall Avenue Project,2B,None,71500,0,7,6
+1451,Terra Bella Family Complex,2B,None,71500,3,20,166
+1452,Villa Gaspar Corte Real Inc Apartments,1B,None,62500,3,14,31
+1453,Tandridge Crescent 1,1B,None,62500,2,0,42
+1454,Tyndall Avenue Project,3B,None,79000,0,7,7
+1455,Terra Nova Senior Citizens Building,1B,Senior 59+,62500,4,40,87
+1456,Villa Gaspar Corte Real Inc Apartments,2B,None,71500,10,43,102
+1457,Villa Gaspar Corte Real Inc Apartments,3B,None,79000,0,12,12
+1458,Villa Gaspar Corte Real Inc Apartments,4B,None,82500,0,5,22
+1459,Villa Gaspar Corte Real Inc Townhouses,1B,None,62500,3,14,31
+1460,Villa Gaspar Corte Real Inc Townhouses,2B,None,71500,10,43,102
+1461,Villa Gaspar Corte Real Inc Townhouses,3B,None,79000,0,12,12
+1462,Villa Gaspar Corte Real Inc Townhouses,4B,None,82500,0,5,22
+1463,Villa Otthon Lambton Apartments,1B,None,62500,2,12,52
+1464,Villa Otthon Lambton Apartments,2B,None,71500,2,17,69
+1465,Villa Otthon Lambton Apartments,3B,None,79000,0,9,35
+1466,Village Apartments,1B,None,62500,3,0,63
+1467,Village Apartments,B,None,53500,17,0,316
+1468,Vilnius Manor,1B,"Senior 59+, Lithuanian Heritage",62500,0,22,80
+1469,Vilnius Manor,B,"Senior 59+, Lithuanian Heritage",53500,0,5,2
+1470,Vincent Paul Family Homes (Gower Park Place),1B,None,62500,9,19,47
+1471,Vincent Paul Family Homes (Gower Park Place),2B,None,71500,3,16,59
+1472,Vincent Paul Family Homes (Gower Park Place),3B,None,79000,0,3,10
+1473,Vincent Paul Family Homes (Gower Park Place),B,None,53500,0,3,7
+1474,Wales Avenue Project Stacked Rowhouses,1B,None,62500,1,1,7
+1475,Wales Avenue Project Stacked Rowhouses,3B,None,79000,0,0,15
+1476,Wales Avenue Project Stacked Rowhouses,B,None,53500,0,0,7
+1477,Wales Avenue Project Townhouses,1B,None,62500,1,1,7
+1478,Wales Avenue Project Townhouses,3B,None,79000,0,0,15
+1479,Wales Avenue Project Townhouses,B,None,53500,0,0,7
+1480,Wales Avenue Project Walkup,1B,None,62500,1,1,7
+1481,Wales Avenue Project Walkup,3B,None,79000,0,0,15
+1482,Wales Avenue Project Walkup,B,None,53500,0,0,7
+1483,Walton Place,1B,None,62500,2,14,39
+1484,Walton Place,2B,None,71500,0,14,16
+1485,Walton Place,3B,None,79000,0,11,1
+1486,Warden Woods Apartments,1B,None,62500,0,0,12
+1487,Warden Woods Apartments,2B,None,71500,2,0,103
+1488,Warden Woods Apartments,3B,None,79000,5,0,137
+1489,Warden Woods Apartments,4B,None,82500,1,0,90
+1490,Warden Woods Apartments,5B,None,82500,0,0,3
+1491,Warden Woods Rowhouses,1B,None,62500,0,0,12
+1492,Warden Woods Rowhouses,2B,None,71500,2,0,103
+1493,Warden Woods Rowhouses,3B,None,79000,5,0,137
+1494,Warden Woods Rowhouses,4B,None,82500,1,0,90
+1495,Warden Woods Rowhouses,5B,None,82500,0,0,3
+1496,Warden Woods Stacked Rowhouses,1B,None,62500,0,0,12
+1497,Warden Woods Stacked Rowhouses,2B,None,71500,2,0,103
+1498,Warden Woods Stacked Rowhouses,3B,None,79000,5,0,137
+1499,Tandridge Crescent 1,2B,None,71500,6,0,114
+1500,Terra Nova Senior Citizens Building,B,Senior 59+,53500,3,0,27
+1501,Ujamaa Housing Co-Op,1B,None,62500,0,1,10
+1502,Tandridge Crescent 1,3B,None,79000,3,0,135
+1503,Terrace Housing Co-Operative Inc.,1B,None,62500,1,10,29
+1504,Ujamaa Housing Co-Op,2B,None,71500,0,6,21
+1505,Terrace Housing Co-Operative Inc.,2B,None,71500,0,11,29
+1506,Ujamaa Housing Co-Op,3B,None,79000,0,4,13
+1507,Tandridge Crescent 1,4B,None,82500,0,0,11
+1508,Terrace Housing Co-Operative Inc.,3B,None,79000,0,7,1
+1509,Ujamaa Housing Co-Op,4B,None,82500,0,0,1
+1510,Tandridge Crescent 1,B,None,53500,0,0,30
+1511,Terrace Housing Co-Operative Inc.,B,None,53500,0,3,10
+1512,Victoria Park/Chester Le,3B,None,79000,4,0,110
+1513,Tandridge Crescent 1 Apartments,1B,None,62500,2,0,42
+1514,The Antonio Mazzotta Building,1B,Senior 59+,62500,6,23,67
+1515,Victoria Park/Chester Le,4B,None,82500,1,0,99
+1516,Tandridge Crescent 1 Apartments,2B,None,71500,6,0,114
+1517,The Antonio Mazzotta Building,2B,Senior 59+,71500,0,6,23
+1518,Victoria Park/Chester Le,5B,None,82500,0,0,10
+1519,Tandridge Crescent 1 Apartments,3B,None,79000,3,0,135
+1520,The Avenel Non Profit Housing Corporation,1B,None,62500,0,7,27
+1521,Victoria Shuter Non-Profit,1B,None,62500,1,13,31
+1522,Tandridge Crescent 1 Apartments,4B,None,82500,0,0,11
+1523,The Avenel Non Profit Housing Corporation,2B,None,71500,1,7,35
+1524,Tandridge Crescent 1 Apartments,B,None,53500,0,0,30
+1525,The Avenel Non Profit Housing Corporation,3B,None,79000,0,8,27
+1526,Tandridge Crescent 1 Rowhouses,1B,None,62500,2,0,42
+1527,The Ceceila Murphy Building,1B,Senior 59+,62500,6,20,70
+1528,The Ceceila Murphy Building,2B,Senior 59+,71500,0,15,45
+1529,The Dan Family Residence,1B,None,62500,0,1,19
+1530,The Dan Family Residence,2B,None,71500,0,3,41
+1531,The Dan Family Residence,3B,None,79000,0,0,2
+1532,The Danforth,1B,None,62500,0,27,26
+1533,The Danforth,2B,None,71500,0,22,22
+1534,The Danforth,3B,None,79000,0,6,6
+1535,The Esplanade,1B,None,62500,1,38,38
+1536,The Esplanade,2B,None,71500,0,27,28
+1537,The Esplanade,3B,None,79000,0,9,9
+1538,The Esplanade,4B,None,82500,0,0,1
+1539,The Esplanade,B,None,53500,0,7,7
+1540,The Flagcrest,1B,None,62500,9,67,77
+1541,The Flagcrest,2B,None,71500,0,3,7
+1542,The Flagcrest,3B,None,79000,0,1,3
+1543,The Kempford,1B,Senior 59+,62500,7,0,239
+1544,The Norm Houghton Complex,1B,Senior 59+,62500,1,9,14
+1545,The Norm Houghton Complex,B,Senior 59+,53500,2,0,21
+1546,The Overlea,1B,Senior 59+,62500,7,0,219
+1547,The Railway Lands Apartments,1B,None,62500,1,3,37
+1548,The Railway Lands Apartments,2B,None,71500,0,3,47
+1549,The Railway Lands Apartments,3B,None,79000,0,3,35
+1550,The Railway Lands Apartments,4B,None,82500,0,3,22
+1551,Spencer Avenue Co-Operative Homes Inc,B,None,53500,1,10,19
+1552,Springhurst Manor,1B,Senior 59+,62500,3,0,59
+1553,Springhurst/Dowling Development,1B,None,62500,0,37,39
+1554,Springhurst/Dowling Development,2B,None,71500,1,24,24
+1555,Springhurst/Dowling Development,3B,None,79000,0,7,7
+1556,St Matthew's Bracondale House Family,2B,None,71500,0,3,3
+1557,St Matthew's Bracondale House Family,3B,None,79000,0,3,3
+1558,St. Clair O'Connor Community Inc.,1B,1 Bedrooms For Seniors 59+ Only,62500,1,69,23
+1559,St. Clair O'Connor Community Inc.,2B,1 Bedrooms For Seniors 59+ Only,71500,0,17,4
+1560,St. Clair O'Connor Community Inc.,3B,1 Bedrooms For Seniors 59+ Only,79000,0,2,3
+1561,St. Clair O'Connor Community Inc.,6B,1 Bedrooms For Seniors 59+ Only,82500,0,0,1
+1562,St. Clair O'Connor Community Inc.,B,1 Bedrooms For Seniors 59+ Only,53500,0,3,3
+1563,St. David's Towers,1B,None,62500,2,28,7
+1564,St. David's Towers,2B,None,71500,0,12,6
+1565,St. David's Village Retirement Residence,B,Senior 59+,53500,1,111,62
+1566,St. Georges Manor,1B,Senior 59+,62500,2,0,82
+1567,St. Georges Manor,B,Senior 59+,53500,20,0,248
+1568,St. Hilda's Towers Inc,B,Senior 59+,53500,0,204,125
+1569,St. Hilda's Towers Lewis Garnsworthy Res.,1B,Senior 59+,62500,12,65,65
+1570,St. Hilda's Towers Lewis Garnsworthy Res.,2B,Senior 59+,71500,0,7,7
+1571,St. John's Polish National Catholic Res.,1B,Senior 59+,62500,0,12,115
+1572,St. John's Polish National Catholic Res.,2B,Senior 59+,71500,0,3,2
+1573,St. Lawrence Townhouses,2B,None,71500,0,4,8
+1574,St. Lawrence Townhouses,3B,None,79000,0,0,4
+1575,St. Mark's Court,1B,None,62500,1,5,29
+1576,St. Mark's Court,2B,None,71500,0,14,17
+1577,St. Mark's Court,3B,None,79000,0,0,3
+1578,St. Mark's Court,4B,None,82500,0,0,2
+1579,St. Matthew's Bracondale House,1B,Senior 59+,62500,6,39,59
+1580,St. Matthew's Bracondale House,B,Senior 59+,53500,1,16,14
+1581,St. Paul's L'Amoreaux Centre,1B,None,62500,4,5,69
+1582,St. Paul's L'Amoreaux Centre,B,None,53500,18,35,149
+1583,St.Clair/Birchmount 11,1B,None,62500,2,0,58
+1584,St.Clair/Birchmount 11,2B,None,71500,7,0,109
+1585,St.Clair/Birchmount 11,3B,None,79000,0,0,24
+1586,St.Clare's Multifaith Housing Society,2B,None,71500,0,5,1
+1587,St.Clare's Multifaith Housing Society,3B,None,79000,1,10,7
+1588,St.Clare's Multifaith Housing Society,4B,None,82500,0,5,4
+1589,Stableford Farm,1B,None,62500,0,0,3
+1590,Stableford Farm,3B,None,79000,0,0,11
+1591,Stableford Farm,4B,None,82500,0,0,9
+1592,Stableford Farm,5B,None,82500,0,0,4
+1593,Stanchester Place,1B,None,62500,0,48,48
+1594,Stanchester Place,2B,None,71500,0,35,35
+1595,Stanchester Place,3B,None,79000,0,7,1
+1596,Stephenson Avenue Project Apartments,1B,None,62500,0,4,9
+1597,Stephenson Avenue Project Apartments,2B,None,71500,0,13,4
+1598,Stephenson Avenue Project Apartments,3B,None,79000,0,2,3
+1599,Stephenson Avenue Project Apartments,B,None,53500,0,8,7
+1600,Stephenson Avenue Project Stacked Rowhouses,1B,None,62500,0,4,9
+1601,Warden Woods Stacked Rowhouses,4B,None,82500,1,0,90
+1602,Warden Woods Stacked Rowhouses,5B,None,82500,0,0,3
+1603,Wellesley Jarvis Place,1B,None,62500,2,2,105
+1604,Wellesley Jarvis Place,B,None,53500,7,1,104
+1605,Wellesley Street,1B,None,62500,9,0,433
+1606,Wellesley Street,2B,None,71500,14,0,227
+1607,Wellesley Street,B,None,53500,5,0,58
+1608,West Don Apartments,1B,Senior 59+,62500,4,0,54
+1609,West Don Apartments,B,Senior 59+,53500,27,0,335
+1610,West Hill Apartments,1B,None,62500,2,0,50
+1611,West Hill Apartments,B,None,53500,25,0,325
+1612,West Mall,2B,None,71500,0,0,18
+1613,West Mall,3B,None,79000,0,0,72
+1614,West Mall,4B,None,82500,0,0,5
+1615,Willowridge/Richview,1B,None,62500,3,0,49
+1616,West Rouge Housing Co-Op,1B,None,62500,0,1,7
+1617,West Rouge Housing Co-Op,2B,None,71500,0,1,11
+1618,West Rouge Housing Co-Op,3B,None,79000,3,7,19
+1619,West Rouge Housing Co-Op,4B,None,82500,0,0,4
+1620,Willowridge/Richview,2B,None,71500,5,0,102
+1621,Westacres Apartments,1B,None,62500,5,0,112
+1622,Willowridge/Richview,3B,None,79000,2,0,77
+1623,Westacres Apartments,B,None,53500,9,0,111
+1624,Willowridge/Richview,4B,None,82500,0,0,6
+1625,Westacres Walkup,1B,None,62500,5,0,112
+1626,Willowridge/Richview,5B,None,82500,0,0,4
+1627,Westacres Walkup,B,None,53500,9,0,111
+1628,Wilmar Court,1B,Senior 59+,62500,8,11,56
+1629,Westminster Court Seniors Apartments,1B,Senior 59+,62500,3,8,24
+1630,Wilmar Court,2B,Senior 59+,71500,0,4,1
+1631,Westminster Court Seniors Apartments,2B,Senior 59+,71500,0,5,4
+1632,Wilmar Eight Housing Co-Op,1B,None,62500,0,10,18
+1633,Weston Towers,1B,None,62500,1,14,5
+1634,Wilmar Eight Housing Co-Op,2B,None,71500,0,19,12
+1635,Weston Towers,2B,None,71500,2,89,32
+1636,Wilmar Eight Housing Co-Op,3B,None,79000,1,14,14
+1637,Weston Towers,3B,None,79000,1,20,16
+1638,Winchester Square,1B,Senior 59+,62500,3,0,65
+1639,Weston/Bellevue,1B,None,62500,12,0,201
+1640,Winchester Square,B,Senior 59+,53500,8,0,195
+1641,Weston/Bellevue,2B,None,71500,2,0,125
+1642,Wilcox Creek Housing Co-Operative Inc Stacked Rowhouses,1B,None,62500,0,1,7
+1643,Wilcox Creek Housing Co-Operative Inc Stacked Rowhouses,2B,None,71500,0,4,10
+1644,Wilcox Creek Housing Co-Operative Inc Stacked Rowhouses,3B,None,79000,2,24,41
+1645,Wilcox Creek Housing Co-Operative Inc Stacked Rowhouses,4B,None,82500,0,4,2
+1646,Wilcox Creek Housing Co-Operative Inc Townhouses,1B,None,62500,0,1,7
+1647,Wilcox Creek Housing Co-Operative Inc Townhouses,2B,None,71500,0,4,10
+1648,Wilcox Creek Housing Co-Operative Inc Townhouses,3B,None,79000,2,24,41
+1649,Wilcox Creek Housing Co-Operative Inc Townhouses,4B,None,82500,0,4,2
+1650,William Clarkin Mews,1B,None,62500,1,48,30
+1651,William Clarkin Mews,2B,None,71500,0,1,4
+1652,William Clarkin Mews,B,None,53500,1,16,16
+1653,William Dennison Apartments,1B,Senior 59+,62500,1,0,34
+1654,William Dennison Apartments,B,Senior 59+,53500,16,0,132
+1655,William Dennison Walkup,1B,Senior 59+,62500,1,0,34
+1656,William Dennison Walkup,B,Senior 59+,53500,16,0,132
+1657,Willow Glen Co-Operative Inc.,1B,None,62500,1,7,26
+1658,Willow Glen Co-Operative Inc.,2B,None,71500,0,14,21
+1659,Willowdale Ave,1B,None,62500,0,0,24
+1660,Willowdale Ave,2B,None,71500,1,0,24
+1661,Willowdale Ave,3B,None,79000,2,0,149
+1662,Willowdale Manor,1B,Senior 59+,62500,5,0,75
+1663,Willowdale Manor,B,Senior 59+,53500,16,0,171
+1664,Wishing Well Manor,1B,Senior 59+,62500,1,0,33
+1665,Wishing Well Manor,B,Senior 59+,53500,14,0,260
+1666,Woburn Village Co-Operative Homes Inc,1B,None,62500,1,9,12
+1667,Woburn Village Co-Operative Homes Inc,2B,None,71500,1,9,11
+1668,Woburn Village Co-Operative Homes Inc,3B,None,79000,0,42,88
+1669,Woburn Village Co-Operative Homes Inc,4B,None,82500,0,7,8
+1670,Woodbine Acres,1B,Senior 59+,62500,1,0,17
+1671,Woodbine Acres,B,Senior 59+,53500,2,0,25
+1672,Woodland Acres,1B,None,62500,10,0,84
+1673,Woodland Acres,B,None,53500,19,0,308
+1674,Woods Manor,1B,Senior 59+,62500,2,0,38
+1675,Woods Manor,B,Senior 59+,53500,3,0,110
+1676,Woodsworth/Northey,3B,None,79000,0,0,38
+1677,Woodtree Co-Operative Inc. Apartments,1B,None,62500,0,0,1
+1678,Woodtree Co-Operative Inc. Apartments,2B,None,71500,2,0,1
+1679,Woodtree Co-Operative Inc. Apartments,3B,None,79000,1,0,4
+1680,York Square,1B,None,62500,2,0,36
+1681,York Square,2B,None,71500,0,12,130
+1682,York Square,3B,None,79000,0,12,20
+1683,Yorkwoods Village,3B,None,79000,1,0,269
+1684,Yorkwoods Village,4B,None,82500,0,0,13
+1685,Yorkwoods Village,5B,None,82500,0,0,20
+1686,Zahav Charitable Foundation Apartments,2B,None,71500,1,2,2
+1687,Zahav Charitable Foundation Apartments,3B,None,79000,0,2,2
+1688,Woodtree Co-Operative Inc. Walkup,1B,None,62500,0,0,2
+1689,Woodtree Co-Operative Inc. Walkup,2B,None,71500,2,0,3
+1690,Woodtree Co-Operative Inc. Walkup,B,None,53500,0,0,1
+1691,Villa Otthon Lambton Townhouses,4B,None,82500,0,1,7
+1692,Woodtree Co-Operative Inc. Walkup,2B,None,71500,2,0,1
+1693,Woodtree Co-Operative Inc. Walkup,3B,None,79000,1,0,1
+1694,Leslie/Nymark Townhouses,3B,None,79000,0,0,20
+1695,Leslie/Nymark Townhouses,4B,None,82500,0,0,16
+1696,Leslie/Nymark Apartments,3B,None,79000,0,0,60
+1697,Leslie/Nymark Apartments,4B,None,82500,0,0,7
+1698,Lawrence Heights Apartments,1B,None,62500,0,0,12
+1699,Lawrence Heights Apartments,2B,None,71500,0,0,13
+1700,Lawrence Heights Apartments,3B,None,79000,0,0,70
+1701,Lawrence Heights Apartments,4B,None,82500,0,0,25
+1702,Lawrence Heights Apartments,5B,None,82500,0,0,35
