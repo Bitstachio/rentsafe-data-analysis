@@ -10,4 +10,14 @@
   - What proportion of pet-friendly buildings also have outdoor recreational facilities?
   - Are buildings with a child play area more likely to restrict pets?
   - Which postal codes or wards have the highest percentage of pet-friendly buildings?
-  - 
+
+- Demographics
+  - Are buildings used as subsidized housing less safe than others?
+    - What does it mean to be less safe?
+      - fire alarm or pump test records
+      - expired or missing TSSA inspection record
+      - frequency of emergency power or sprinkler system tests
+      - ...
+  - Are buildings in certain parts of the city less safe than others?
+  - Are older or newer buildings less safe?
+  
