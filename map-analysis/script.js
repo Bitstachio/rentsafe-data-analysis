@@ -2,6 +2,8 @@ const inputMinBuildings = document.getElementById("input-min-buildings");
 const inputColorHigh = document.getElementById("input-color-high");
 const inputColorMedium = document.getElementById("input-color-medium");
 const inputColorLow = document.getElementById("input-color-low");
+const inputHighThreshold = document.getElementById("input-high-threshold");
+const inputMediumThreshold = document.getElementById("input-medium-threshold");
 const interactiveInputs = document.querySelectorAll("input.interactive");
 
 const map = L.map("map").setView([43.7, -79.4], 11);
@@ -9,8 +11,8 @@ const map = L.map("map").setView([43.7, -79.4], 11);
 L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png").addTo(map);
 
 const getColor = (score) => {
-    return score >= 90 ? inputColorHigh.value :
-        score >= 80 ? inputColorMedium.value :
+    return score >= inputHighThreshold.value ? inputColorHigh.value :
+        score >= inputMediumThreshold.value ? inputColorMedium.value :
             inputColorLow.value;
 };
 
