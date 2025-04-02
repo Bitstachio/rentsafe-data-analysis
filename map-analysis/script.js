@@ -56,40 +56,72 @@ fetch("toronto_crs84.geojson")
     .then(res => res.json())
     .then(geo => neighbourhoodGeoJSON = geo); // save it for later
 
+const thresholdN = 10;
 document.getElementById("csvFileInput").addEventListener("change", function (e) {
     Papa.parse(e.target.files[0], {
         header: true,
         skipEmptyLines: true,
-        complete: function (results) {
+        complete: async function (results) {
+            const buildings = results.data.map(row => ({
+                latitude: parseFloat(row["LATITUDE"]),
+                longitude: parseFloat(row["LONGITUDE"]),
+                score: parseFloat(row["CURRENT BUILDING EVAL SCORE"]),
+                address: row["SITE ADDRESS"]
+            }));
+
+            const geoData = await fetch("toronto_crs84.geojson").then(res => res.json());
+
             const scores = {};
+            const counts = {};
 
-            results.data.forEach(row => {
-                const lat = parseFloat(row['LATITUDE']);
-                const lon = parseFloat(row['LONGITUDE']);
-                const score = parseFloat(row['CURRENT BUILDING EVAL SCORE']);
+            buildings.forEach(b => {
+                if (!isNaN(b.latitude) && !isNaN(b.longitude) && !isNaN(b.score)) {
+                    const point = turf.point([b.longitude, b.latitude]);
 
-                if (!isNaN(lat) && !isNaN(lon) && !isNaN(score)) {
-                    const point = turf.point([lon, lat]);
-
-                    for (const feature of neighbourhoodGeoJSON.features) {
+                    for (const feature of geoData.features) {
+                        const name = feature.properties.AREA_NAME;
                         if (turf.booleanPointInPolygon(point, feature)) {
-                            const name = feature.properties.AREA_NAME;
-
                             if (!scores[name]) scores[name] = [];
-                            scores[name].push(score);
+                            scores[name].push(b.score);
+
+                            counts[name] = (counts[name] || 0) + 1;
                             break;
                         }
                     }
                 }
             });
 
-            // Calculate averages
+            const avgScoresByNeighbourhood = {};
+
             for (let name in scores) {
-                const sum = scores[name].reduce((a, b) => a + b, 0);
-                avgScoresByNeighbourhood[name] = sum / scores[name].length;
+                if (counts[name] > thresholdN) {
+                    const sum = scores[name].reduce((a, b) => a + b, 0);
+                    avgScoresByNeighbourhood[name] = sum / scores[name].length;
+                }
             }
 
-            loadNeighbourhoodMap();
+            // Render filtered neighbourhoods
+            L.geoJSON(geoData, {
+                style: function (feature) {
+                    const name = feature.properties.AREA_NAME;
+                    const avgScore = avgScoresByNeighbourhood[name];
+                    return avgScore ? {
+                        color: "#333",
+                        weight: 1,
+                        fillColor: getColor(avgScore),
+                        fillOpacity: 0.5
+                    } : {
+                        fillOpacity: 0 // hide if no score
+                    };
+                },
+                onEachFeature: function (feature, layer) {
+                    const name = feature.properties.AREA_NAME;
+                    const avg = avgScoresByNeighbourhood[name];
+                    if (avg !== undefined) {
+                        layer.bindPopup(`Neighbourhood: ${name}<br>Average Score: ${avg.toFixed(1)}`);
+                    }
+                }
+            }).addTo(map);
         }
     });
 });
