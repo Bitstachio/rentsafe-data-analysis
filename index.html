@@ -22,16 +22,27 @@
     <label for="input-min-buildings">Minimum Buildings</label>
     <input class="interactive" type="number" id="input-min-buildings" name="min-buildings" min="0" step="1" value="0"/><br>
     <label>High Score Color (≥90):
-        <input class="interactive" type="color" id="input-color-high" value="#008000"></label>
+        <input class="interactive" type="color" id="input-color-high" value="#008000">
+    </label>
     <label>High Threshold
-        <input class="interactive" type="number" id="input-high-threshold" min="0" step="1" value="90"></label><br>
+        <input class="interactive" type="number" id="input-high-threshold" min="0" step="1" value="90">
+    </label><br>
     <label>Medium Score Color (≥80):
         <input class="interactive" type="color" id="input-color-medium" value="#FFA500"></label>
     <label>Medium Threshold
-        <input class="interactive" type="number" id="input-medium-threshold" min="0" step="1" value="80"></label><br>
+        <input class="interactive" type="number" id="input-medium-threshold" min="0" step="1" value="80">
+    </label><br>
     <label>Low Score Color (<80):
         <input class="interactive" type="color" id="input-color-low" value="#FF0000"></label><br>
-    <input type="file" id="csvFileInput" accept=".csv">
+    <label for="csvFileInput">CSV Data
+        <input type="file" id="csvFileInput" accept=".csv"><br>
+    </label>
+    <label for="select-display-mode">Display Mode
+        <select name="modes" id="select-display-mode">
+            <option value="individual">Individual</option>
+            <option value="neighbourhood">Neighbourhood</option>
+        </select>
+    </label>
     <div id="map"></div>
 </body>
 </html>
