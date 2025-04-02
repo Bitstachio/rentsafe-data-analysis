@@ -1,3 +1,5 @@
+const inputMinBuildings = document.getElementById("input-min-buildings");
+
 const map = L.map("map").setView([43.7, -79.4], 11);
 
 L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png").addTo(map);
@@ -10,7 +12,7 @@ const getColor = (score) => {
 
 let statsByNeighbourhood = {};
 let neighbourhoodGeoJSON = null;
-const thresholdN = 10;
+const getMinBuildings = () => parseInt(inputMinBuildings.value) || 0;
 
 // Preload GeoJSON for later use
 fetch("toronto_crs84.geojson")
@@ -18,8 +20,11 @@ fetch("toronto_crs84.geojson")
     .then(geo => neighbourhoodGeoJSON = geo);
 
 // CSV upload and processing
-document.getElementById("csvFileInput").addEventListener("change", function (e) {
-    Papa.parse(e.target.files[0], {
+let uploadedFile = null;
+let currentLayer = null;
+
+const processCSV = (file) => {
+    Papa.parse(file, {
         header: true,
         skipEmptyLines: true,
         complete: async function (results) {
@@ -54,7 +59,7 @@ document.getElementById("csvFileInput").addEventListener("change", function (e) 
             // Compute stats
             statsByNeighbourhood = {};
             for (let name in scores) {
-                if (counts[name] > thresholdN) {
+                if (counts[name] >= getMinBuildings()) {
                     const values = scores[name];
                     const count = values.length;
                     const mean = values.reduce((a, b) => a + b, 0) / count;
@@ -73,7 +78,11 @@ document.getElementById("csvFileInput").addEventListener("change", function (e) 
             }
 
             // Render filtered neighbourhoods with stats
-            L.geoJSON(geoData, {
+            if (currentLayer) {
+                map.removeLayer(currentLayer);
+            }
+
+            currentLayer = L.geoJSON(geoData, {
                 style: function (feature) {
                     const name = feature.properties.AREA_NAME;
                     const stats = statsByNeighbourhood[name];
@@ -90,18 +99,29 @@ document.getElementById("csvFileInput").addEventListener("change", function (e) 
                     const name = feature.properties.AREA_NAME;
                     const stats = statsByNeighbourhood[name];
                     if (stats) {
-                        layer.bindPopup(`
-                            <strong>${name}</strong><br>
-                            Buildings: ${stats.count}<br>
-                            Mean: ${stats.mean.toFixed(1)}<br>
-                            Median: ${stats.median.toFixed(1)}<br>
-                            Std Dev: ${stats.std.toFixed(1)}<br>
-                            Min: ${stats.min}<br>
-                            Max: ${stats.max}
-                        `);
+                        layer.bindPopup(
+                            `<strong>${name}</strong><br>
+                Buildings: ${stats.count}<br>
+                Mean: ${stats.mean.toFixed(1)}<br>
+                Median: ${stats.median.toFixed(1)}<br>
+                Std Dev: ${stats.std.toFixed(1)}<br>
+                Min: ${stats.min}<br>
+                Max: ${stats.max}`
+                        );
                     }
                 }
             }).addTo(map);
         }
     });
+}
+
+document.getElementById("csvFileInput").addEventListener("change", function (e) {
+    uploadedFile = e.target.files[0];
+    processCSV(uploadedFile);
+});
+
+inputMinBuildings.addEventListener("input", () => {
+    if (uploadedFile) {
+        processCSV(uploadedFile);
+    }
 });
