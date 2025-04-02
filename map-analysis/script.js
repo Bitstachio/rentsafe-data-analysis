@@ -2,61 +2,22 @@ const map = L.map("map").setView([43.7, -79.4], 11);
 
 L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png").addTo(map);
 
-fetch("toronto_crs84.geojson")
-    .then(res => res.json())
-    .then(data => {
-        L.geoJSON(data, {
-            style: {
-                color: "#555",
-                weight: 1,
-                fillOpacity: 0.1
-            },
-            onEachFeature: function (feature, layer) {
-                const name = feature.properties.AREA_NAME || feature.properties.name;
-                layer.bindPopup(`Neighbourhood: ${name}`);
-            }
-        }).addTo(map);
-    });
-
 const getColor = (score) => {
-    console.log(score)
     return score >= 90 ? "green" :
         score >= 80 ? "orange" :
             "red";
-}
+};
 
-function loadNeighbourhoodMap() {
-    fetch('toronto_crs84.geojson')
-        .then(res => res.json())
-        .then(geoData => {
-            L.geoJSON(geoData, {
-                style: function (feature) {
-                    const name = feature.properties.AREA_NAME;
-                    const avgScore = avgScoresByNeighbourhood[name];
-                    return {
-                        color: '#333',
-                        weight: 1,
-                        fillColor: getColor(avgScore),
-                        fillOpacity: 0.5
-                    };
-                },
-                onEachFeature: function (feature, layer) {
-                    const name = feature.properties.AREA_NAME;
-                    const avg = avgScoresByNeighbourhood[name];
-                    layer.bindPopup(`Neighbourhood: ${name}<br>Average Score: ${avg ? avg.toFixed(1) : 'N/A'}`);
-                }
-            }).addTo(map);
-        });
-}
-
-let avgScoresByNeighbourhood = {};
+let statsByNeighbourhood = {};
 let neighbourhoodGeoJSON = null;
+const thresholdN = 10;
 
+// Preload GeoJSON for later use
 fetch("toronto_crs84.geojson")
     .then(res => res.json())
-    .then(geo => neighbourhoodGeoJSON = geo); // save it for later
+    .then(geo => neighbourhoodGeoJSON = geo);
 
-const thresholdN = 10;
+// CSV upload and processing
 document.getElementById("csvFileInput").addEventListener("change", function (e) {
     Papa.parse(e.target.files[0], {
         header: true,
@@ -70,7 +31,6 @@ document.getElementById("csvFileInput").addEventListener("change", function (e) 
             }));
 
             const geoData = await fetch("toronto_crs84.geojson").then(res => res.json());
-
             const scores = {};
             const counts = {};
 
@@ -91,34 +51,54 @@ document.getElementById("csvFileInput").addEventListener("change", function (e) 
                 }
             });
 
-            const avgScoresByNeighbourhood = {};
-
+            // Compute stats
+            statsByNeighbourhood = {};
             for (let name in scores) {
                 if (counts[name] > thresholdN) {
-                    const sum = scores[name].reduce((a, b) => a + b, 0);
-                    avgScoresByNeighbourhood[name] = sum / scores[name].length;
+                    const values = scores[name];
+                    const count = values.length;
+                    const mean = values.reduce((a, b) => a + b, 0) / count;
+                    const std = Math.sqrt(values.reduce((a, b) => a + Math.pow(b - mean, 2), 0) / count);
+                    const sorted = [...values].sort((a, b) => a - b);
+                    const median = count % 2 === 0 ?
+                        (sorted[count / 2 - 1] + sorted[count / 2]) / 2 :
+                        sorted[Math.floor(count / 2)];
+                    const min = sorted[0];
+                    const max = sorted[sorted.length - 1];
+
+                    statsByNeighbourhood[name] = {
+                        count, mean, std, median, min, max
+                    };
                 }
             }
 
-            // Render filtered neighbourhoods
+            // Render filtered neighbourhoods with stats
             L.geoJSON(geoData, {
                 style: function (feature) {
                     const name = feature.properties.AREA_NAME;
-                    const avgScore = avgScoresByNeighbourhood[name];
-                    return avgScore ? {
+                    const stats = statsByNeighbourhood[name];
+                    return stats ? {
                         color: "#333",
                         weight: 1,
-                        fillColor: getColor(avgScore),
+                        fillColor: getColor(stats.mean),
                         fillOpacity: 0.5
                     } : {
-                        fillOpacity: 0 // hide if no score
+                        fillOpacity: 0
                     };
                 },
                 onEachFeature: function (feature, layer) {
                     const name = feature.properties.AREA_NAME;
-                    const avg = avgScoresByNeighbourhood[name];
-                    if (avg !== undefined) {
-                        layer.bindPopup(`Neighbourhood: ${name}<br>Average Score: ${avg.toFixed(1)}`);
+                    const stats = statsByNeighbourhood[name];
+                    if (stats) {
+                        layer.bindPopup(`
+                            <strong>${name}</strong><br>
+                            Buildings: ${stats.count}<br>
+                            Mean: ${stats.mean.toFixed(1)}<br>
+                            Median: ${stats.median.toFixed(1)}<br>
+                            Std Dev: ${stats.std.toFixed(1)}<br>
+                            Min: ${stats.min}<br>
+                            Max: ${stats.max}
+                        `);
                     }
                 }
             }).addTo(map);
