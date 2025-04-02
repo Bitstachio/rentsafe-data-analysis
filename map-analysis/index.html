@@ -20,8 +20,13 @@
 </head>
 <body>
     <label for="input-min-buildings">Minimum Buildings</label>
-    <input type="number" id="input-min-buildings" name="min-buildings" min="0" step="1" value="0"/>
-    <br>
+    <input class="interactive" type="number" id="input-min-buildings" name="min-buildings" min="0" step="1" value="0"/><br>
+    <label>High Score Color (≥90):
+        <input class="interactive" type="color" id="input-color-high" value="#008000"></label><br>
+    <label>Medium Score Color (≥80):
+        <input class="interactive" type="color" id="input-color-medium" value="#FFA500"></label><br>
+    <label>Low Score Color (<80):
+        <input class="interactive" type="color" id="input-color-low" value="#FF0000"></label><br>
     <input type="file" id="csvFileInput" accept=".csv">
     <div id="map"></div>
 </body>

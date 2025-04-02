@@ -1,13 +1,17 @@
 const inputMinBuildings = document.getElementById("input-min-buildings");
+const inputColorHigh = document.getElementById("input-color-high");
+const inputColorMedium = document.getElementById("input-color-medium");
+const inputColorLow = document.getElementById("input-color-low");
+const interactiveInputs = document.querySelectorAll("input.interactive");
 
 const map = L.map("map").setView([43.7, -79.4], 11);
 
 L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png").addTo(map);
 
 const getColor = (score) => {
-    return score >= 90 ? "green" :
-        score >= 80 ? "orange" :
-            "red";
+    return score >= 90 ? inputColorHigh.value :
+        score >= 80 ? inputColorMedium.value :
+            inputColorLow.value;
 };
 
 let statsByNeighbourhood = {};
@@ -120,8 +124,8 @@ document.getElementById("csvFileInput").addEventListener("change", function (e) 
     processCSV(uploadedFile);
 });
 
-inputMinBuildings.addEventListener("input", () => {
-    if (uploadedFile) {
-        processCSV(uploadedFile);
-    }
-});
+interactiveInputs.forEach(input => {
+    input.addEventListener("input", () => {
+        if (uploadedFile) processCSV(uploadedFile);
+    });
+})
