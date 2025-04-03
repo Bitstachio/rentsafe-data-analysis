@@ -5,6 +5,7 @@ const inputColorLow = document.getElementById("input-color-low");
 const inputHighThreshold = document.getElementById("input-high-threshold");
 const inputMediumThreshold = document.getElementById("input-medium-threshold");
 const interactiveInputs = document.querySelectorAll("input.interactive");
+const displayMode = document.getElementById("select-display-mode");
 
 const map = L.map("map").setView([43.7, -79.4], 11);
 
@@ -20,16 +21,45 @@ let statsByNeighbourhood = {};
 let neighbourhoodGeoJSON = null;
 const getMinBuildings = () => parseInt(inputMinBuildings.value) || 0;
 
-// Preload GeoJSON for later use
+// Preload GeoJSONs for later use
+// Neighborhoods
 fetch("toronto_crs84.geojson")
     .then(res => res.json())
     .then(geo => neighbourhoodGeoJSON = geo);
+// Wards
+fetch("City_Wards.geojson")
+    .then(res => res.json())
+    .then(ward => wardGeoJSON = ward);
+// Former Municipality Boundaries
+fetch("Former_Municipality_Boundaries.geojson")
+    .then(res => res.json())
+    .then(oldcitybounds => oldcityboundsGeoJSON = oldcitybounds);
 
 // CSV upload and processing
 let uploadedFile = null;
 let currentLayer = null;
 
+// display mode selection
+let currDisplay = 'individual';
+
 const processCSV = (file) => {
+    switch (currDisplay) {
+        case 'individual':
+            processByIndividual(file)
+            return;
+        case 'ward':
+            processByWard(file)
+            return;
+        case 'former-city-boundary':
+            processByOldBound(file)
+            return;
+        case 'neighbourhood':
+            break;
+        default:
+            console.error("Unsupported display mode:", currDisplay);
+            return;
+    }
+
     Papa.parse(file, {
         header: true,
         skipEmptyLines: true,
@@ -121,6 +151,12 @@ const processCSV = (file) => {
     });
 }
 
+const processByWard = (file) => {
+    
+}
+
+
+
 document.getElementById("csvFileInput").addEventListener("change", function (e) {
     uploadedFile = e.target.files[0];
     processCSV(uploadedFile);
@@ -131,3 +167,10 @@ interactiveInputs.forEach(input => {
         if (uploadedFile) processCSV(uploadedFile);
     });
 })
+
+displayMode.addEventListener("change", (e) => { 
+    currDisplay = e.target.value;
+    if (uploadedFile) {
+        processCSV(uploadedFile);
+    }
+});

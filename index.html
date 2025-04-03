@@ -1,48 +1,98 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
+  <head>
+    <meta charset="UTF-8" />
     <title>Toronto Apartment Building Evaluations</title>
 
     <!-- Stylesheets -->
-    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
-          integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
-          crossorigin=""/>
-    <link rel="stylesheet" href="styles.css">
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+      integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+      crossorigin=""
+    />
+    <link rel="stylesheet" href="styles.css" />
 
     <!-- Scripts -->
-    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
-            integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
-            crossorigin=""></script>
+    <script
+      src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+      integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+      crossorigin=""
+    ></script>
     <script src="https://cdn.jsdelivr.net/npm/papaparse@5.4.1/papaparse.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@turf/turf@6.5.0/turf.min.js"></script>
     <script src="script.js" defer></script>
-</head>
-<body>
+  </head>
+  <body>
     <label for="input-min-buildings">Minimum Buildings</label>
-    <input class="interactive" type="number" id="input-min-buildings" name="min-buildings" min="0" step="1" value="0"/><br>
-    <label>High Score Color (≥90):
-        <input class="interactive" type="color" id="input-color-high" value="#008000">
+    <input
+      class="interactive"
+      type="number"
+      id="input-min-buildings"
+      name="min-buildings"
+      min="0"
+      step="1"
+      value="0"
+    /><br />
+    <label
+      >High Score Color (≥90):
+      <input
+        class="interactive"
+        type="color"
+        id="input-color-high"
+        value="#008000"
+      />
     </label>
-    <label>High Threshold
-        <input class="interactive" type="number" id="input-high-threshold" min="0" step="1" value="90">
-    </label><br>
-    <label>Medium Score Color (≥80):
-        <input class="interactive" type="color" id="input-color-medium" value="#FFA500"></label>
-    <label>Medium Threshold
-        <input class="interactive" type="number" id="input-medium-threshold" min="0" step="1" value="80">
-    </label><br>
-    <label>Low Score Color (<80):
-        <input class="interactive" type="color" id="input-color-low" value="#FF0000"></label><br>
-    <label for="csvFileInput">CSV Data
-        <input type="file" id="csvFileInput" accept=".csv"><br>
+    <label
+      >High Threshold
+      <input
+        class="interactive"
+        type="number"
+        id="input-high-threshold"
+        min="0"
+        step="1"
+        value="90"
+      /> </label
+    ><br />
+    <label
+      >Medium Score Color (≥80):
+      <input
+        class="interactive"
+        type="color"
+        id="input-color-medium"
+        value="#FFA500"
+    /></label>
+    <label
+      >Medium Threshold
+      <input
+        class="interactive"
+        type="number"
+        id="input-medium-threshold"
+        min="0"
+        step="1"
+        value="80"
+      /> </label
+    ><br />
+    <label
+      >Low Score Color (<80):
+      <input
+        class="interactive"
+        type="color"
+        id="input-color-low"
+        value="#FF0000" /></label
+    ><br />
+    <label for="csvFileInput"
+      >CSV Data <input type="file" id="csvFileInput" accept=".csv" /><br />
     </label>
-    <label for="select-display-mode">Display Mode
-        <select name="modes" id="select-display-mode">
-            <option value="individual">Individual</option>
-            <option value="neighbourhood">Neighbourhood</option>
-        </select>
+    <label for="select-display-mode"
+      >Display Mode
+      <select name="modes" id="select-display-mode">
+        <option value="individual">Individual</option>
+        <option value="neighbourhood">Neighbourhood</option>
+        <option value="ward">Ward</option>
+        <option value="former-city-boundary">Former City Boundary</option>
+      </select>
     </label>
     <div id="map"></div>
-</body>
+  </body>
 </html>
