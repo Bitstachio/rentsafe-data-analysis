@@ -40,7 +40,7 @@ let uploadedFile = null;
 let currentLayer = null;
 
 // display mode selection
-let currDisplay = 'individual';
+let currDisplay = displayMode.value;
 
 const processCSV = (file) => {
     switch (currDisplay) {
@@ -151,8 +151,94 @@ const processCSV = (file) => {
     });
 }
 
+
+
 const processByWard = (file) => {
-    
+    Papa.parse(file, {
+        header: true,
+        skipEmptyLines: true,
+        complete: async function (results) {
+            const buildings = results.data.map(row => ({
+                ward: parseInt(row["WARD"]),
+                score: parseFloat(row["CURRENT BUILDING EVAL SCORE"]),
+            }));
+            
+            const geoData = await fetch("City_Wards.geojson").then(res => res.json());
+            const scores = {};
+            const counts = {};
+
+            buildings.forEach(b => {
+                if (!isNaN(b.score)) {
+                    for (const feature of geoData.features) {
+                        const ward = parseInt(feature.properties.AREA_SHORT_CODE);
+                        if (ward == b.ward) {
+                            if (!scores[ward]) scores[ward] = [];
+                            scores[ward].push(b.score);
+                            counts[ward] = (counts[ward] || 0) + 1;
+                            break;
+                        }
+                    }
+                }
+            });
+
+            // Compute stats
+            statsByWard = {};
+            for (let ward in scores) {
+                if (counts[ward] >= getMinBuildings()) {
+                    const values = scores[ward];
+                    const count = values.length;
+                    const mean = values.reduce((a, b) => a + b, 0) / count;
+                    const std = Math.sqrt(values.reduce((a, b) => a + Math.pow(b - mean, 2), 0) / count);
+                    const sorted = [...values].sort((a, b) => a - b);
+                    const median = count % 2 === 0 ?
+                        (sorted[count / 2 - 1] + sorted[count / 2]) / 2 :
+                        sorted[Math.floor(count / 2)];
+                    const min = sorted[0];
+                    const max = sorted[sorted.length - 1];
+
+                    statsByWard[ward] = {
+                        count, mean, std, median, min, max
+                    };
+                }
+            }
+            console.log(statsByWard)
+            // Render filtered wards with stats
+            if (currentLayer) {
+                map.removeLayer(currentLayer);
+            }
+
+            currentLayer = L.geoJSON(geoData, {
+                style: function (feature) {
+                    const ward = parseInt(feature.properties.AREA_SHORT_CODE);
+                    const stats = statsByWard[ward];
+                    return stats ? {
+                        color: "#333",
+                        weight: 1,
+                        fillColor: getColor(stats.mean),
+                        fillOpacity: 0.5
+                    } : {
+                        fillOpacity: 0
+                    };
+                },
+                onEachFeature: function (feature, layer) {
+                    const name = feature.properties.AREA_NAME;
+                    const ward = parseInt(feature.properties.AREA_SHORT_CODE);
+                    const stats = statsByWard[ward];
+                    if (stats) {
+                        layer.bindPopup(
+                            `<strong>${name}</strong> ${ward}<br>
+                            Buildings: ${stats.count}<br>
+                            Mean: ${stats.mean.toFixed(1)}<br>
+                            Median: ${stats.median.toFixed(1)}<br>
+                            Std Dev: ${stats.std.toFixed(1)}<br>
+                            Min: ${stats.min}<br>
+                            Max: ${stats.max}`
+                        );
+                    }
+                }
+            }).addTo(map);
+        }
+    });
 }
 
 
